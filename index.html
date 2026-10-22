@@ -4,93 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>ARJIT | Full Stack Developer &amp; Designer</title>
+
     <meta
       name="description"
-      content="ARJIT | ASPIRING FULL STACK DEVELOPER"
+      content="Portfolio of Arjit Kumar Mahato — B.Tech CSE student building full-stack web applications and visual designs."
     />
     <meta
       name="keywords"
-      content="Arjit, Frontend Developer, Portfolio, Web Development, UI/UX, Javascript, React"
+      content="Arjit Kumar Mahato, Arjit, Full Stack Developer, Frontend Developer, Portfolio, Web Development, UI/UX, Javascript, Photoshop, C++, Java, SVIET"
     />
-    <meta name="author" content="Arjit" />
-    <link rel="canonical" href="https://your-portfolio.vercel.app/" />
+    <meta name="author" content="Arjit Kumar Mahato" />
+    <link rel="canonical" href="https://arjitkumar01.github.io/Portfolio001/" />
 
+    <!-- Open Graph Metadata -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arjitkumar01.github.io/Portfolio001/" />
+    <meta property="og:title" content="ARJIT | Full Stack Developer &amp; Designer" />
     <meta
-      property="og:url"
-      content="https://your-portfolio.vercel.app/"
+      property="og:description"
+      content="Portfolio of Arjit Kumar Mahato — B.Tech CSE student building modern web applications, learning DSA in Java/C++, and crafting Photoshop designs."
     />
-    <meta property="og:title" content="ARJIT | Fullstack Developer" />
-    <meta property="og:description" content="Aspiring Full Stack Developer" />
     <meta
       property="og:image"
-      content="https://your-portfolio.vercel.app/Assets/images/main.png"
+      content="Assets/images/main.png"
     />
+
+    <link rel="icon" type="image/png" href="Assets/images/title_icon.png" />
     <link rel="stylesheet" href="Assets/app.css" />
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          "gtm.start": new Date().getTime(),
-          event: "gtm.js",
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-TLNG322R");
-    </script>
-    <title>ARJIT | Full Stack Developer</title>
 
     <meta name="theme-color" content="#121212" />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap"
-      as="style"
-    />
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Arjit Kumar Mahato",
-        "jobTitle": "B.Tech CSE Student",
-        "knowsAbout": [
-          "C",
-          "C++",
-          "Python",
-          "Java",
-          "Data Structures & Algorithms",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Adobe Photoshop"
-        ],
-        "sameAs": [
-          "https://github.com/Arjitkumar01",
-          "https://www.linkedin.com/in/arjit-kr-mahato-b73a6337b"
-        ],
-        "description": "Portfolio of Arjit Kumar Mahato, a B.Tech CSE student building a foundation across C, C++, Python, and Java, learning DSA, working with the web, and designing in Photoshop."
-      }
-    </script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-
+    <!-- Font Preconnect & Preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link type="logo" rel="icon" href="Assets/images/title_icon.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arjit Kumar Mahato",
+        "jobTitle": "B.Tech CSE Student & Developer",
+        "knowsAbout": [
+          "C",
+          "C++",
+          "Python",
+          "Java",
+          "Data Structures & Algorithms",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwind CSS",
+          "Adobe Photoshop"
+        ],
+        "sameAs": [
+          "https://github.com/Arjitkumar01",
+          "https://www.linkedin.com/in/arjit-kr-mahato-b73a6337b"
+        ],
+        "description": "Portfolio of Arjit Kumar Mahato, a B.Tech CSE student building full-stack web applications, learning DSA in Java and C++, and designing in Photoshop."
+      }
+    </script>
+
+    <!-- Tailwind CSS Script + Neo-Brutalist Theme Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -120,6 +107,7 @@
         },
       };
     </script>
+
     <noscript>
       <style>
         #preloader {
@@ -135,6 +123,7 @@
   <body
     class="text-neo-black font-display antialiased selection:bg-neo-black selection:text-neo-yellow"
   >
+    <!-- Preloader Overlay -->
     <div id="preloader" class="preloader" role="status" aria-live="polite">
       <span class="sr-only">Loading portfolio, please wait&hellip;</span>
 
@@ -152,66 +141,75 @@
       </div>
 
       <div class="cyber-terminal-box">
-        <span>></span> <span id="cyberText">BOOTING CORE ENGINE...</span
-        ><span class="terminal-cursor"></span>
+        <span>&gt;</span> <span id="cyberText">BOOTING CORE ENGINE...</span><span class="terminal-cursor"></span>
       </div>
     </div>
 
+    <!-- Interactive Neo Cursor (Fine Pointer Only) -->
     <div
       id="cursor"
-      class="w-6 h-6 bg-neo-yellow/70 rounded-full border-2 border-black hidden lg:block"
+      class="w-6 h-6 bg-neo-yellow/75 rounded-full border-2 border-black hidden lg:block"
     ></div>
 
+    <!-- Reading Progress Indicator -->
     <div
       class="fixed top-0 left-0 h-2 bg-neo-green z-[60] border-b-2 border-black transition-all duration-75"
       id="progressBar"
       style="width: 0%"
     ></div>
 
+    <!-- Top Sticky Navigation -->
     <nav class="fixed top-0 w-full z-50 px-4 py-4 pointer-events-none">
       <div
         class="max-w-7xl mx-auto flex justify-between items-center pointer-events-auto hero-reveal-top"
       >
         <a
-          href=""
-          class="bg-neo-white border-2 border-black px-4 py-1 text-2xl font-black shadow-hard hover:bg-neo-yellow transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none cursor-hover"
+          href="#"
+          class="bg-neo-white border-2 border-black px-4 py-1 text-2xl font-black shadow-hard hover:bg-neo-yellow transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none cursor-hover tracking-tight"
         >
-          
+          ARJIT<span class="text-neo-red">.</span>
         </a>
 
         <div
+          id="navLinksContainer"
           class="hidden md:flex gap-4 bg-white border-2 border-black p-2 shadow-hard"
         >
           <a
             href="#about"
-            class="px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
             >/ABOUT</a
           >
           <a
             href="#skills"
-            class="px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
             >/SKILLS</a
           >
           <a
             href="#experience"
-            class="px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
             >/LOGS</a
           >
           <a
+            href="#coding-stats"
+            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            >/STATS</a
+          >
+          <a
             href="#projects"
-            class="px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
             >/WORK</a
           >
           <a
             href="#contact"
-            class="px-3 py-1 font-mono font-bold text-sm bg-neo-yellow border border-black hover:bg-neo-pink transition-colors cursor-hover"
+            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
             >CONTACT</a
           >
         </div>
       </div>
     </nav>
 
-    <section
+    <!-- Hero Section -->
+    <header
       class="min-h-screen flex flex-col justify-center items-center px-4 pt-20 relative overflow-hidden border-b-4 border-black"
     >
       <div
@@ -233,11 +231,11 @@
           <span class="font-mono font-bold text-neo-green bg-black px-2 mr-2"
             >●</span
           >
-          <span class="font-mono font-bold">STATUS: SEMESTER 3</span>
+          <span class="font-mono font-bold">STATUS: SEMESTER 3 // SVIET</span>
         </div>
 
         <h1
-          class="text-[13vw] md:text-[10vw] leading-[0.8] font-black uppercase tracking-tighter mb-6 hero-reveal mix-blend-darken"
+          class="text-[13vw] md:text-[10vw] leading-[0.85] font-black uppercase tracking-tighter mb-6 hero-reveal mix-blend-darken"
         >
           CSE<br />
           <span
@@ -250,8 +248,8 @@
         <p
           class="font-mono text-lg md:text-2xl max-w-2xl mx-auto mb-10 bg-neo-yellow border-2 border-black p-4 shadow-hard hero-reveal rotate-1"
         >
-          Currently Debugging Life at Semester 3. <br />
-          <b>C • C++ • Python • Java • HTML/CSS/JS • Photoshop</b>
+          Building Modern Web Systems &amp; Visual Interfaces. <br />
+          <b>C &bull; C++ &bull; Python &bull; Java &bull; HTML/CSS/JS &bull; Photoshop</b>
         </p>
 
         <div class="flex flex-col md:flex-row justify-center gap-6 hero-reveal">
@@ -263,38 +261,40 @@
           </a>
           <a
             href="Assets/Resume/Resume.pdf"
-            download
+            download="Arjit_Kumar_Mahato_Resume.pdf"
             class="bg-neo-white text-black border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-pink hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover flex items-center justify-center gap-2"
           >
             <i class="ri-download-line"></i> DOWNLOAD CV
           </a>
         </div>
       </div>
-    </section>
+    </header>
 
+    <!-- Marquee Ticker -->
     <div class="border-b-4 border-black bg-neo-blue py-3 relative z-20">
       <div class="marquee-container font-mono font-bold text-2xl text-white">
         <div class="marquee-content">
           /// CURRENTLY LEARNING /// JAVA + DSA /// WEB DEVELOPMENT /// UI
-          DESIGN IN PHOTOSHOP /// ALWAYS BUILDING /// CURRENTLY LEARNING ///
-          JAVA + DSA /// WEB DEVELOPMENT ///
+          DESIGN IN PHOTOSHOP /// ALWAYS BUILDING /// C++ ALGORITHMS ///
+          FULL STACK ARCHITECTURE /// CURRENTLY LEARNING /// JAVA + DSA /// WEB DEVELOPMENT ///
         </div>
       </div>
     </div>
 
+    <!-- About Section -->
     <section
       id="about"
       class="py-24 px-4 max-w-7xl mx-auto border-x-4 border-black bg-white my-12 shadow-hard-lg"
     >
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
         <div class="md:col-span-4 reveal">
           <div
             class="aspect-square bg-gray-200 border-4 border-black relative shadow-hard overflow-hidden group"
           >
             <img
               src="Assets/images/main.png"
-              alt="Arjit"
-              loading="lazy"
+              alt="Arjit Kumar Mahato"
+              fetchpriority="high"
               decoding="async"
               class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
@@ -305,45 +305,49 @@
           </div>
         </div>
         <div class="md:col-span-8 flex flex-col justify-center reveal">
-          <h2 class="text-6xl font-black uppercase mb-6">Who am I?</h2>
+          <h2 class="text-5xl md:text-6xl font-black uppercase mb-6">Who am I?</h2>
           <p class="font-mono text-xl leading-relaxed mb-6">
-            I'm Arjit — a B.Tech CSE student figuring out how code and
-            fell alive.<span class="bg-neo-yellow px-1 border border-black"
-              >design</span
-            >
-            fit together.
+            I'm <b>Arjit</b> &mdash; a B.Tech Computer Science &amp; Engineering student
+            figuring out how clean code and <span class="bg-neo-yellow px-1 border border-black font-bold">visual design</span>
+            come together to create unforgettable digital experiences.
           </p>
           <p
-            class="font-mono text-lg mb-8 text-gray-600 border-l-4 border-neo-purple pl-4"
+            class="font-mono text-lg mb-8 text-gray-700 border-l-4 border-neo-purple pl-4 space-y-1"
           >
-            > Started with C, C++, and Python fundamentals.<br />
-            > Currently learning Java alongside Data Structures &amp;
-            Algorithms.<br />
-            > Also design visuals in Adobe Photoshop.
+            &gt; Building core programming foundations in C, C++, and Python.<br />
+            &gt; Mastering Java alongside Data Structures &amp; Algorithms.<br />
+            &gt; Developing responsive, interactive web interfaces with modern web standards.<br />
+            &gt; Designing commercial &amp; editorial graphics in Adobe Photoshop.
           </p>
 
-          <div class="flex gap-4">
+          <div class="flex flex-wrap gap-4">
             <div
-              class="bg-neo-black text-white px-4 py-2 font-mono text-sm border-2 border-transparent"
+              class="bg-neo-black text-white px-4 py-2 font-mono text-sm border-2 border-black"
             >
               ⾕ SEMESTER: 03
             </div>
             <div
-              class="bg-neo-green text-black px-4 py-2 font-mono text-sm border-2 border-black"
+              class="bg-neo-green text-black px-4 py-2 font-mono text-sm border-2 border-black font-bold"
             >
-              𓏲ּ𝄢 STATUS: LEARNING
+              𓏲ּ𝄢 STATUS: ACTIVE_BUILDER
+            </div>
+            <div
+              class="bg-neo-yellow text-black px-4 py-2 font-mono text-sm border-2 border-black font-bold"
+            >
+              📍 SVIET, CSE
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Tech Stack Matrix -->
     <section
       id="skills"
       class="py-20 bg-neo-black text-neo-white border-y-4 border-black relative overflow-hidden"
     >
       <div
-        class="absolute inset-0 opacity-20"
+        class="absolute inset-0 opacity-20 pointer-events-none"
         style="
           background-image:
             linear-gradient(#333 1px, transparent 1px),
@@ -362,269 +366,222 @@
             TECH<span class="text-neo-green">_STACK</span>
           </h2>
           <div class="flex items-center gap-2 mb-2 md:mb-4">
-            <div class="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+            <div class="w-3 h-3 bg-neo-green rounded-full animate-pulse"></div>
             <p class="font-mono text-neo-green text-sm font-bold">
               /// SYSTEM_OPTIMIZED
             </p>
           </div>
         </div>
 
-        <div class="flex flex-wrap justify-center md:justify-start">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 border-t-2 border-l-2 border-white/20">
+          <!-- 1. C -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ LANGUAGE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               C
             </div>
           </div>
 
+          <!-- 2. C++ -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-yellow transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-yellow transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ LANGUAGE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               C++
             </div>
           </div>
 
+          <!-- 3. Python -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-blue transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-blue transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
+            <div class="text-neo-green group-hover:text-white font-mono text-xs mb-1 opacity-70">
+              &gt;_ LANGUAGE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-white font-black font-display text-xl uppercase">
               Python
             </div>
           </div>
 
+          <!-- 4. Java -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-green transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-green transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ LANGUAGE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               Java
             </div>
           </div>
 
+          <!-- 5. JavaScript -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-pink transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-pink transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ LANGUAGE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               JavaScript
             </div>
           </div>
 
+          <!-- 6. CSS3 -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-purple transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-purple transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ STYLING
+            <div class="text-neo-green group-hover:text-white font-mono text-xs mb-1 opacity-70">
+              &gt;_ STYLING
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-white font-black font-display text-xl uppercase">
               CSS3
             </div>
           </div>
 
+          <!-- 7. HTML5 -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-orange transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-orange transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ CORE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ CORE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               HTML5
             </div>
           </div>
 
+          <!-- 8. Git -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ VERSION
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ VERSION
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
-              GIT
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
+              Git
             </div>
           </div>
 
+          <!-- 9. DSA -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ PRACTICE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ PRACTICE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               DSA
             </div>
           </div>
 
+          <!-- 10. GitHub -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-blue transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-blue transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ OPS
+            <div class="text-neo-green group-hover:text-white font-mono text-xs mb-1 opacity-70">
+              &gt;_ OPS
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-white font-black font-display text-xl uppercase">
               GitHub
             </div>
           </div>
 
+          <!-- 11. Photoshop -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-orange transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-orange transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ DESIGN
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-70">
+              &gt;_ DESIGN
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               Photoshop
             </div>
           </div>
 
+          <!-- 12. Tailwind CSS -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-yellow transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-blue transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ FRAMEWORK
+            <div class="text-neo-green group-hover:text-white font-mono text-xs mb-1 opacity-70">
+              &gt;_ STYLING
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-white font-black font-display text-xl uppercase">
+              Tailwind
+            </div>
+          </div>
+
+          <!-- 13. OOP -->
+          <div
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-purple transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+          >
+            <div class="text-neo-green group-hover:text-white font-mono text-xs mb-1 opacity-70">
+              &gt;_ PARADIGM
+            </div>
+            <div class="text-white group-hover:text-white font-black font-display text-xl uppercase">
+              OOP
+            </div>
+          </div>
+
+          <!-- 14. ??? -->
+          <div
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-yellow transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+          >
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50">
+              &gt;_ EXPANDING
+            </div>
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               ???
             </div>
           </div>
 
+          <!-- 15. ??? -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-pink transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-pink transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50">
+              &gt;_ FUTURE
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               ???
             </div>
           </div>
 
+          <!-- 16. ??? -->
           <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
+            class="group h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-white transition-colors hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
           >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ FRAMEWORK
+            <div class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50">
+              &gt;_ UPCOMING
             </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
-              ???
-            </div>
-          </div>
-
-          <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-green transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
-          >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ 3D
-            </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
-              ???
-            </div>
-          </div>
-
-          <div
-            class="group w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-[12.5%] h-24 border-r-2 border-b-2 border-white/20 bg-neo-black hover:bg-neo-purple transition-all duration-0 hover:z-10 relative cursor-hover flex flex-col items-center justify-center p-2"
-          >
-            <div
-              class="text-neo-green group-hover:text-black font-mono text-xs mb-1 opacity-50"
-            >
-              >_ LANGUAGE
-            </div>
-            <div
-              class="text-white group-hover:text-black font-black font-display text-xl uppercase"
-            >
+            <div class="text-white group-hover:text-black font-black font-display text-xl uppercase">
               ???
             </div>
           </div>
         </div>
 
         <div
-          class="border-t-4 border-white mt-8 pt-4 flex justify-between font-mono text-xs text-gray-500"
+          class="border-t-4 border-white mt-8 pt-4 flex flex-col sm:flex-row justify-between font-mono text-xs text-gray-400 gap-2"
         >
-          <span>TOTAL_NODES: ***</span>
-          <span>STATUS: LEARNING_MODE</span>
+          <span>TOTAL_NODES: 16 NODES // 13 ACTIVE + 3 EXPANDING</span>
+          <span>STATUS: LEARNING_MODE // EXPANDING_KNOWLEDGE</span>
         </div>
       </div>
     </section>
 
+    <!-- Education Log -->
     <section id="experience" class="py-24 px-4 max-w-7xl mx-auto">
       <h2
         class="text-5xl md:text-8xl font-black uppercase mb-12 tracking-tighter text-center"
       >
-         Education<span class="text-neo-red">_Log</span>
+        Education<span class="text-neo-red">_Log</span>
       </h2>
 
       <div class="relative border-l-4 border-black ml-4 md:ml-10">
@@ -634,48 +591,42 @@
           ></div>
 
           <div
-            class="bg-white border-4 border-black p-6 shadow-hard hover:shadow-hard-xl transition-all"
+            class="bg-white border-4 border-black p-6 md:p-8 shadow-hard hover:shadow-hard-xl transition-all"
           >
             <div
-              class="flex flex-col md:flex-row justify-between items-start md:items-center border-b-2 border-dashed border-gray-300 pb-4 mb-4"
+              class="flex flex-col md:flex-row justify-between items-start md:items-center border-b-2 border-dashed border-gray-300 pb-4 mb-4 gap-2"
             >
-              <h3 class="text-3xl font-black uppercase">
+              <h3 class="text-2xl md:text-3xl font-black uppercase">
                 B.Tech, Computer Science &amp; Engineering
               </h3>
 
               <span
-                class="font-mono font-bold bg-neo-black text-white px-2 py-1"
+                class="font-mono font-bold bg-neo-black text-white px-3 py-1 text-sm border border-black"
               >
                 SEMESTER 03 - PRESENT
               </span>
             </div>
 
-            <p class="font-mono text-xl mb-4 text-neo-yellow font-bold">
-               @ Swami Vivekanand Institute of Engineering and Technology (SVIET)
+            <p class="font-mono text-lg md:text-xl mb-4 text-neo-black font-bold flex items-center gap-2">
+              <span class="bg-neo-yellow px-2 py-0.5 border border-black">@ SVIET</span>
+              Swami Vivekanand Institute of Engineering and Technology
             </p>
 
             <ul class="list-disc list-inside font-mono text-gray-700 space-y-2">
               <li>
-                Completed fundamentals in C, C++, and Python.
+                Mastered foundational programming principles in <b>C, C++, and Python</b>.
               </li>
               <li>
-                Currently learning Java alongside Data Structures &amp;
-                Algorithms.
+                Currently advancing in <b>Java</b> alongside core <b>Data Structures &amp; Algorithms</b>.
               </li>
               <li>
-                Built a foundation in web development with HTML, CSS, and
-                JavaScript.
+                Built a solid frontend foundation with <b>HTML5, CSS3, JavaScript, and Tailwind CSS</b>.
               </li>
               <li>
-                Designing visuals and layouts in Adobe Photoshop alongside
-                coursework.
+                Designing promotional posters, editorial banners, and brand identities in <b>Adobe Photoshop</b>.
               </li>
               <li>
-                Built websites using HTML, CSS, JavaScript, React, Tailwind CSS,
-                Nextjs and modern web technologies.
-              </li>
-              <li>
-                Building small projects to apply concepts as they're learned.
+                Constructing real-world web applications and portfolios to test concepts immediately.
               </li>
             </ul>
           </div>
@@ -683,7 +634,8 @@
       </div>
     </section>
 
-    <!-- <section
+    <!-- Coding Stats & GitHub Metrics (Activated for Arjitkumar01) -->
+    <section
       id="coding-stats"
       class="py-16 w-full bg-[#0a0a0a] text-white border-y-4 border-black relative overflow-hidden"
     >
@@ -697,233 +649,137 @@
         "
       ></div>
 
-      <div class="w-full px-4 md:px-12 relative z-10">
+      <div class="max-w-7xl mx-auto px-4 relative z-10">
         <div
           class="flex justify-between items-center mb-10 border-b-2 border-white pb-4"
         >
           <h2
             class="text-4xl md:text-6xl font-black uppercase text-white tracking-tight"
           >
-            CODING<span class="text-[#33FF57]">_STATS</span>
+            CODING<span class="text-neo-green">_STATS</span>
           </h2>
           <div class="flex items-center gap-2">
-            <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <p class="font-mono text-[#33FF57] text-sm font-bold">
+            <div class="w-3 h-3 bg-neo-green rounded-full animate-pulse"></div>
+            <p class="font-mono text-neo-green text-sm font-bold">
               LIVE SYNCED
             </p>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 w-full">
-          <div class="flex flex-col w-full">
+        <div class="border-4 border-white/20 p-6 md:p-10 bg-black shadow-[10px_10px_0_rgba(0,0,0,1)] relative">
+          <!-- User header -->
+          <div
+            class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 pb-6 border-b border-white/10 gap-4"
+          >
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-neo-green border-2 border-white flex items-center justify-center text-black">
+                <i class="ri-github-fill text-3xl"></i>
+              </div>
+              <div>
+                <h3 class="text-2xl font-black text-white leading-tight">
+                  Arjitkumar01
+                </h3>
+                <p class="text-xs font-mono text-neo-green uppercase tracking-widest mt-1">
+                  B.Tech CSE Student Developer
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <a
+                href="https://github.com/Arjitkumar01"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block bg-neo-green text-black font-mono text-xs font-black uppercase px-4 py-2 border-2 border-white shadow-[4px_4px_0_rgba(255,255,255,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover"
+              >
+                Visit GitHub Profile &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Live Stats & Streak Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
             <div
-              class="flex items-center gap-2 mb-6 border-b border-white/20 pb-2"
+              class="border-2 border-white/20 p-4 bg-[#0a0a0a] flex flex-col items-center justify-center shadow-[6px_6px_0_rgba(51,255,87,0.15)]"
             >
               <div
-                class="w-10 h-10 bg-[#33FF57] border-2 border-white flex items-center justify-center shadow-[4px_4px_0_rgba(255,255,255,1)]"
+                class="w-full text-left text-xs font-mono text-neo-green uppercase mb-3 border-b border-white/10 pb-2 flex justify-between items-center"
               >
-                <i class="ri-github-fill text-xl text-black"></i>
+                <span>// Core Metrics</span>
+                <span class="text-xs text-gray-400">@Arjitkumar01</span>
               </div>
-              <h3 class="text-3xl font-black uppercase text-white">
-                GITHUB PROFILE
-              </h3>
+              <a
+                href="https://github.com/Arjitkumar01"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full flex justify-center py-2"
+              >
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://github-readme-stats.vercel.app/api?username=Arjitkumar01&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&count_private=true"
+                  alt="Arjit's GitHub Stats"
+                  class="w-full h-auto object-contain max-h-[190px]"
+                  onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api?username=Arjitkumar01&show_icons=true&theme=dark&hide_border=true';"
+                />
+              </a>
             </div>
 
             <div
-              class="border-4 border-white/20 p-6 md:p-10 bg-black flex-1 flex flex-col shadow-[10px_10px_0_rgba(0,0,0,1)] relative group"
+              class="border-2 border-white/20 p-4 bg-[#0a0a0a] flex flex-col items-center justify-center shadow-[6px_6px_0_rgba(51,255,87,0.15)]"
             >
               <div
-                class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 pb-6 border-b border-white/10 gap-4"
+                class="w-full text-left text-xs font-mono text-neo-green uppercase mb-3 border-b border-white/10 pb-2 flex justify-between items-center"
               >
-                <div class="flex items-center gap-4">
-                  <i class="ri-github-fill text-4xl text-[#33FF57]"></i>
-                  <div>
-                    <h4 class="text-2xl font-black text-white leading-tight">
-                      Arjitkumar01
-                    </h4>
-                    <p
-                      class="text-xs font-mono text-[#33FF57] uppercase tracking-widest mt-1"
-                    >
-                      Student Developer
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <a
-                    href="https://github.com/Arjitkumar01"
-                    target="_blank"
-                    class="inline-block bg-[#33FF57] text-black font-mono text-xs font-black uppercase px-4 py-2 border-2 border-white shadow-[4px_4px_0_rgba(255,255,255,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
-                  >
-                    Visit Profile →
-                  </a>
-                </div>
+                <span>// Consistency &amp; Streak</span>
+                <span class="text-xs text-gray-400">ACTIVE</span>
               </div>
-
-              <div
-                class="mb-8 border-2 border-white/20 p-4 bg-[#0a0a0a] shadow-[6px_6px_0_rgba(51,255,87,0.15)] overflow-hidden"
+              <a
+                href="https://github.com/Arjitkumar01"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full flex justify-center py-2"
               >
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="https://github-readme-streak-stats.herokuapp.com/?user=Arjitkumar01&theme=radical&hide_border=true&background=0a0a0a"
+                  alt="Arjit's GitHub Streak"
+                  class="w-full h-auto object-contain max-h-[190px]"
+                  onerror="this.style.display='none'; document.getElementById('streak-fallback-box').style.display='block';"
+                />
                 <div
-                  class="w-full text-left text-xs font-mono text-[#33FF57] uppercase mb-4 border-b border-white/10 pb-2 flex justify-between items-center"
+                  id="streak-fallback-box"
+                  style="display: none"
+                  class="py-8 text-sm font-mono text-gray-400 text-center"
                 >
-                  <span>🏆 GitHub Trophies &amp; Achievements</span>
-                  <span class="text-green-400 font-bold">ACTIVE</span>
+                  Streak stats streaming on <span class="text-neo-green">github.com/Arjitkumar01</span>
                 </div>
-                <div class="w-full flex justify-center overflow-x-auto py-2">
-                  <a
-                    href="https://github.com/Arjitkumar01"
-                    target="_blank"
-                    class="block w-full text-center"
-                  >
-                    <img
-                      data-src="https://github-profile-trophy.vercel.app/?username=princekumar-dev74&theme=radical&no-bg=true&margin-w=5&margin-h=5&column=3"
-                      data-fallback="trophy-fallback"
-                      alt="GitHub Trophies"
-                      class="lazy-img mx-auto h-auto max-h-[150px] filter brightness-110"
-                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
-                      onerror="
-                        this.style.display = 'none';
-                        document.getElementById(
-                          'trophy-fallback',
-                        ).style.display = 'block';
-                      "
-                    />
-                    <div
-                      id="trophy-fallback"
-                      style="display: none"
-                      class="py-4 text-sm font-mono text-gray-400"
-                    >
-                      Trophies viewable directly on
-                      <span class="text-[#33FF57]">GitHub Profile</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-                <div
-                  class="border-2 border-white/20 p-4 bg-[#0a0a0a] flex flex-col items-center justify-center shadow-[6px_6px_0_rgba(51,255,87,0.15)] overflow-hidden"
-                >
-                  <div
-                    class="w-full text-left text-xs font-mono text-[#33FF57] uppercase mb-3 border-b border-white/10 pb-2"
-                  >
-                    // Overall Metrics
-                  </div>
-                  <a
-                    href="https://github.com/Arjitkumar01"
-                    target="_blank"
-                    class="w-full flex justify-center"
-                  >
-                    <img
-                      data-src="https://github-readme-stats.vercel.app/api?username=princekumar-dev74&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&count_private=true"
-                      alt="Prince's GitHub Stats"
-                      class="lazy-img w-full h-auto object-contain"
-                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
-                      onerror="
-                        this.onerror = null;
-                        this.src =
-                          'https://github-readme-stats.vercel.app/api?username=princekumar-dev74&show_icons=true&theme=dark&hide_border=true';
-                      "
-                    />
-                  </a>
-                </div>
-
-                <div
-                  class="border-2 border-white/20 p-4 bg-[#0a0a0a] flex flex-col items-center justify-center shadow-[6px_6px_0_rgba(51,255,87,0.15)] overflow-hidden"
-                >
-                  <div
-                    class="w-full text-left text-xs font-mono text-[#33FF57] uppercase mb-3 border-b border-white/10 pb-2"
-                  >
-                    // Streak &amp; Consistency
-                  </div>
-                  <a
-                    href="https://github.com/Arjitkumar01"
-                    target="_blank"
-                    class="w-full flex justify-center"
-                  >
-                    <img
-                      data-src="https://github-readme-streak-stats.herokuapp.com/?user=princekumar-dev74&theme=radical&hide_border=true&background=0a0a0a"
-                      data-fallback="streak-fallback"
-                      alt="Prince's GitHub Streak"
-                      class="lazy-img w-full h-auto object-contain"
-                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
-                      onerror="
-                        this.style.display = 'none';
-                        document.getElementById(
-                          'streak-fallback',
-                        ).style.display = 'block';
-                      "
-                    />
-                    <div
-                      id="streak-fallback"
-                      style="display: none"
-                      class="py-4 text-sm font-mono text-gray-400 text-center"
-                    >
-                      Streak stats viewable directly on
-                      <span class="text-[#33FF57]">GitHub Profile</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="w-full flex flex-col justify-center mb-8">
-                <div
-                  class="bg-black border-2 border-[#33FF57]/30 p-4 overflow-x-auto shadow-[6px_6px_0_rgba(51,255,87,0.1)] relative"
-                >
-                  <div
-                    class="absolute top-2 right-2 w-2 h-2 bg-[#33FF57] rounded-full animate-pulse"
-                  ></div>
-                  <p
-                    class="text-xs font-mono text-[#33FF57]/60 uppercase tracking-[0.2em] mb-3"
-                  >
-                    Matrix_Output // Contribution Graph
-                  </p>
-                  <div class="w-full flex justify-center py-2">
-                    <img
-                      data-src="https://ghchart.rshah.org/33FF57/princekumar-dev74"
-                      data-fallback="chart-fallback"
-                      alt="GitHub Contribution Graph"
-                      class="lazy-img w-full h-auto filter brightness-110 min-w-[650px]"
-                      src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
-                      onerror="
-                        this.style.display = 'none';
-                        document.getElementById(
-                          'chart-fallback',
-                        ).style.display = 'block';
-                      "
-                    />
-                    <div
-                      id="chart-fallback"
-                      style="display: none"
-                      class="py-4 text-sm font-mono text-gray-400 text-center w-full"
-                    >
-                      Contribution graph viewable directly on
-                      <span class="text-[#33FF57]">GitHub Profile</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="mt-auto flex flex-col sm:flex-row items-center justify-between text-[#33FF57] p-4 border-2 border-white/10 bg-[#0a0a0a] font-mono text-sm gap-4"
-              >
-                <div class="flex items-center gap-2">
-                  <span class="text-white/40">$</span>
-                  <span class="text-[#33FF57]"
-                    >git status --remote origin/Arjitkumar01</span
-                  >
-                  <span class="animate-pulse">_</span>
-                </div>
-                <span class="text-gray-400 text-xs">
-                  Status:
-                  <strong class="text-green-400">100% Operational</strong>
-                </span>
-              </div>
+              </a>
             </div>
+          </div>
+
+          <!-- Matrix Output & Terminal Prompt -->
+          <div
+            class="flex flex-col sm:flex-row items-center justify-between text-neo-green p-4 border-2 border-white/10 bg-[#0a0a0a] font-mono text-sm gap-4"
+          >
+            <div class="flex items-center gap-2">
+              <span class="text-white/40">$</span>
+              <span class="text-neo-green"
+                >git status --remote origin/Arjitkumar01</span
+              >
+              <span class="animate-pulse">_</span>
+            </div>
+            <span class="text-gray-400 text-xs">
+              Status:
+              <strong class="text-green-400">Repositories Online</strong>
+            </span>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
+    <!-- Selected Works (Web Dev & Design Projects) -->
     <section
       id="projects"
       class="py-24 bg-neo-yellow border-t-4 border-black px-4 overflow-hidden"
@@ -935,52 +791,52 @@
         >
           Selected Works
         </h2>
+
+        <!-- Part 1: Web Dev Projects -->
         <h3
           class="text-3xl md:text-5xl font-black uppercase mb-8 bg-neo-black text-white inline-block px-4 py-2 border-4 border-black shadow-hard"
         >
           Web Dev Projects
         </h3>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+          <!-- Web Project 1: Portfolio V2 -->
           <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard"
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between"
           >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 group-hover:shadow-none transition-all"
-            >
-              <img
-                src="Assets/images/portfolio-v2.png"
-                alt="portfolio"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6"
+              >
+                <img
+                  src="Assets/images/portfolio-v2.png"
+                  alt="Portfolio V2 Project"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-red transition-colors glitch-hover"
+              >
+                Neo-Brutalist Portfolio
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                A custom-built, responsive developer portfolio featuring a retro cyber bootloader,
+                rAF-optimized custom cursor, interactive tech matrix, and brutalist design principles.
+              </p>
             </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-red transition-colors glitch-hover"
-                >
-                  Portfolio
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  Portfolio – A modern, responsive personal portfolio built
-                  with clean UI, smooth animations, and performance-focused
-                  design.
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">HTML</span>
-                  <span class="bg-neo-black text-white px-2 py-1">CSS</span>
-                  <span class="bg-neo-black text-white px-2 py-1"
-                    >JAVASCRIPT</span
-                  >
-                  <span class="bg-neo-black text-white px-2 py-1"
-                    >Frontend</span
-                  >
-                </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">HTML5</span>
+                <span class="bg-neo-black text-white px-2 py-1">CSS3</span>
+                <span class="bg-neo-black text-white px-2 py-1">JAVASCRIPT</span>
+                <span class="bg-neo-black text-white px-2 py-1">TAILWIND</span>
               </div>
               <a
-                href=""
+                href="https://github.com/Arjitkumar01/Portfolio001"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="View Portfolio repository on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
@@ -989,126 +845,43 @@
             </div>
           </article>
 
+          <!-- Web Project 2: Graphic Design Repository -->
           <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard mt-0 md:mt-20"
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between mt-0 md:mt-16"
           >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 group-hover:shadow-none transition-all"
-            >
-              <img
-                src="Assets/images/"
-                alt="Coming soon"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-blue transition-colors glitch-hover"
-                >
-                  Coming Soon
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  ???
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                </div>
-              </div>
-              <a
-                href=""
-                aria-label="View Portfolio-v1 repository on GitHub"
-                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6"
               >
-                <i class="ri-arrow-right-up-line text-2xl"></i>
-              </a>
-            </div>
-          </article>
-
-          <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard"
-          >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 group-hover:shadow-none transition-all"
-            >
-              <img
-                src="Assets/images/"
-                alt="brand0-webkaizen"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-pink transition-colors glitch-hover"
-                >
-                  Coming Soon
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  ???
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                  <span class="bg-neo-black text-white px-2 py-1"
-                    >???</span
-                  >
-                  <span class="bg-neo-black text-white px-2 py-1"
-                    >???</span
-                  >
-                </div>
+                <img
+                  src="Assets/images/7.1.png"
+                  alt="Designing Work Showcase"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
               </div>
-              <a
-                href="https://github.com/Arjitkumar01"
-                aria-label=""
-                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-blue transition-colors glitch-hover"
               >
-                <i class="ri-arrow-right-up-line text-2xl"></i>
-              </a>
+                Designing Work Collection
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                Curated repository of Adobe Photoshop creative projects, including commercial brand advertisements,
+                music tour flyers, and athletic posters.
+              </p>
             </div>
-          </article>
-
-          <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard mt-0 md:mt-20"
-          >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 group-hover:shadow-none transition-all"
-            >
-              <img
-                src="Assets/images/"
-                alt="coming Soon"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-            </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-orange transition-colors glitch-hover"
-                >
-                  Coming Soon
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  Comming soon
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                  <span class="bg-neo-black text-white px-2 py-1">???</span>
-                  <span class="bg-neo-black text-white px-2 py-1"
-                    >???</span
-                  >
-                </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">POSTERS</span>
+                <span class="bg-neo-black text-white px-2 py-1">BRANDING</span>
               </div>
               <a
-                href="https://github.com/Arjitkumar01"
-                aria-label="View One-Piece repository on GitHub"
+                href="https://github.com/Arjitkumar01/designing_work"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Designing Work repository on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
@@ -1117,216 +890,287 @@
           </article>
         </div>
 
-        <div class="text-center mt-24">
-        </div>
-      </div>
-      <h3
+        <!-- Part 2: Graphic Design Projects -->
+        <h3
           class="text-3xl md:text-5xl font-black uppercase mb-8 bg-neo-black text-white inline-block px-4 py-2 border-4 border-black shadow-hard"
         >
           Design Projects
         </h3>
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- Design 01: Black Panther Shoe Ad -->
           <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard mt-0 md:mt-20"
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between"
           >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
-            >
-              <span
-                class="font-mono text-xs font-bold text-white/50 uppercase tracking-[0.2em]"
-                >
-                <img
-                src="Assets/images/shoes1.png"
-                alt="Coming soon"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-                </span
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
               >
-              
+                <img
+                  src="Assets/images/shoes1.png"
+                  alt="Black Panther Sneaker Ad"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-pink transition-colors glitch-hover"
+              >
+                Design-01 // Wakanda Sneaker
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                A bold, Black Panther-inspired sneaker advertisement featuring cinematic purple backlighting,
+                sharp typography, and futuristic metallic product composition.
+              </p>
             </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-pink transition-colors glitch-hover"
-                >
-                  design-01
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  A bold, Black Panther-inspired shoe advertisement featuring a sleek black and purple color scheme,
-                  cinematic lighting, and dynamic composition. 
-                  Designed to create a premium, futuristic look while keeping the product as the main visual focus.
-
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
-                  <!-- <span class="bg-neo-black text-white px-2 py-1">UI/UX</span> -->
-                </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">COMMERCIAL</span>
               </div>
               <a
                 href="https://github.com/Arjitkumar01/designing_work"
-                aria-label="View Portfolio repository on GitHub"
-                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
-              >
-                <i class="ri-arrow-right-up-line text-2xl"></i>
-              </a>
-              
-            </div>
-          </article>
-          <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard"
-          >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
-            >
-              <span
-                class="font-mono text-xs font-bold text-white/50 uppercase tracking-[0.2em]"
-                >
-                <img
-                src="Assets/images/shoes2.png"
-                alt="Coming soon"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-
-                </span
-              >
-              
-            </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-orange transition-colors glitch-hover"
-                >
-                  design-02
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  A modern sneaker poster featuring bold typography, dynamic motion effects, and a striking black-and-green color palette. 
-                  The design emphasizes speed, energy, and premium style while keeping the product as the focal point.
-
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
-                  
-                </div>
-              </div>
-              <a
-                href="https://github.com/Arjitkumar01/designing_work"
-                aria-label="View Portfolio repository on GitHub"
-                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
-              >
-                <i class="ri-arrow-right-up-line text-2xl"></i>
-              </a>
-              
-            </div>
-          </article>
-          <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard mt-0 md:mt-20"
-          >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
-            >
-              <span
-                class="font-mono text-xs font-bold text-white/50 uppercase tracking-[0.2em]"
-                >
-                <img
-                src="Assets/images/watch.png"
-                alt="Coming soon"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-
-                </span
-              >
-              
-            </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-purple transition-colors glitch-hover"
-                >
-                  design-03
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  A luxury magazine cover featuring elegant typography, a premium green-and-gold color palette, 
-                  and a sophisticated layout that highlights timeless craftsmanship and style.
-
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
-                  <span class="bg-neo-black text-white px-2 py-1">BRANDING</span>
-                </div>
-              </div>
-              <a
-                href="https://github.com/Arjitkumar01/designing_work"
-                aria-label="View Portfolio repository on GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View designing_work on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
               </a>
             </div>
           </article>
+
+          <!-- Design 02: Speed & Motion Sneaker Poster -->
           <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard"
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between mt-0 md:mt-16"
           >
-            <div
-              class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
-            >
-              <span
-                class="font-mono text-xs font-bold text-white/50 uppercase tracking-[0.2em]"
-                >
-                <img
-                src=""
-                alt="Coming soon"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-              />
-
-                </span
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
               >
-              
+                <img
+                  src="Assets/images/shoes2.png"
+                  alt="Dynamic Motion Sneaker Poster"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-orange transition-colors glitch-hover"
+              >
+                Design-02 // Velocity Sneaker
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                A high-speed runner campaign poster with kinetic motion blur, neon green energetic bursts,
+                and high-contrast typography emphasizing speed and power.
+              </p>
             </div>
-            <div class="flex justify-between items-start">
-              <div>
-                <h3
-                  class="text-4xl font-black uppercase mb-2 group-hover:text-neo-orange transition-colors glitch-hover"
-                >
-                  design-04
-                </h3>
-                <p class="font-mono text-sm mb-4 max-w-xs">
-                  Coming Soon:
-
-                </p>
-                <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                  <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
-                  
-                </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">MOTION ART</span>
               </div>
               <a
                 href="https://github.com/Arjitkumar01/designing_work"
-                aria-label="View Portfolio repository on GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View designing_work on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
               </a>
-              
+            </div>
+          </article>
+
+          <!-- Design 03: Luxury Watch Editorial -->
+          <article
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
+              >
+                <img
+                  src="Assets/images/watch.png"
+                  alt="Luxury Timepiece Editorial"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-purple transition-colors glitch-hover"
+              >
+                Design-03 // Luxury Timepiece
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                A luxury magazine editorial cover showcasing classical watch craftsmanship with an emerald-and-gold
+                palette and refined editorial hierarchy.
+              </p>
+            </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">EDITORIAL</span>
+              </div>
+              <a
+                href="https://github.com/Arjitkumar01/designing_work"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View designing_work on GitHub"
+                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+              >
+                <i class="ri-arrow-right-up-line text-2xl"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Design 04: Spider-Man Marvel Tribute (Fixed from empty src) -->
+          <article
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between mt-0 md:mt-16"
+          >
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
+              >
+                <img
+                  src="Assets/images/6.2.png"
+                  alt="Spider-Man Cinematic Poster"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-red transition-colors glitch-hover"
+              >
+                Design-04 // Spider-Man Tribute
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                A cinematic Marvel poster tribute featuring Spider-Man with Iron Man, Doc Ock, and Green Goblin,
+                composed with comic halftones, dynamic webs, and classic superhero typography.
+              </p>
+            </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">POSTER DESIGN</span>
+              </div>
+              <a
+                href="https://github.com/Arjitkumar01/designing_work"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View designing_work on GitHub"
+                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+              >
+                <i class="ri-arrow-right-up-line text-2xl"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Design 05: Cristiano Ronaldo Poster (7.2.png) -->
+          <article
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
+              >
+                <img
+                  src="Assets/images/7.2.png"
+                  alt="Cristiano Ronaldo Athletic Poster"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-blue transition-colors glitch-hover"
+              >
+                Design-05 // The Blues CR7
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                An athletic graphic poster commemorating Cristiano Ronaldo with striking bold typography,
+                layered player silhouettes, and clean modern sports branding.
+              </p>
+            </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">SPORTS ART</span>
+              </div>
+              <a
+                href="https://github.com/Arjitkumar01/designing_work"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View designing_work on GitHub"
+                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+              >
+                <i class="ri-arrow-right-up-line text-2xl"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Design 06: Minimalist Portrait & Typography (test.jpg) -->
+          <article
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between mt-0 md:mt-16"
+          >
+            <div>
+              <div
+                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6 flex items-center justify-center"
+              >
+                <img
+                  src="Assets/images/test.jpg"
+                  alt="Minimalist Editorial Art"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
+                />
+              </div>
+              <h4
+                class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-yellow transition-colors glitch-hover"
+              >
+                Design-06 // Minimalist Editorial
+              </h4>
+              <p class="font-mono text-sm mb-4 text-gray-700">
+                A modern magazine layout balancing bold condensed type against monochrome portraiture
+                with golden geometric overlay accents.
+              </p>
+            </div>
+            <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
+              <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
+                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
+                <span class="bg-neo-black text-white px-2 py-1">TYPOGRAPHY</span>
+              </div>
+              <a
+                href="https://github.com/Arjitkumar01/designing_work"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View designing_work on GitHub"
+                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+              >
+                <i class="ri-arrow-right-up-line text-2xl"></i>
+              </a>
             </div>
           </article>
         </div>
-        <div class="text-center mt-24">
+
+        <div class="text-center mt-20">
           <a
             href="https://github.com/Arjitkumar01"
-            class="inline-block bg-neo-black text-white px-12 py-5 font-bold font-mono text-xl hover:bg-neo-white hover:text-black border-4 border-black transition-all shadow-hard hover:shadow-none cursor-hover"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-neo-black text-white px-10 py-5 font-bold font-mono text-lg md:text-xl hover:bg-neo-white hover:text-black border-4 border-black transition-all shadow-hard hover:shadow-none cursor-hover"
           >
-            VIEW ALL REPOS ON GITHUB
+            VIEW ALL REPOS ON GITHUB &rarr;
           </a>
         </div>
+      </div>
     </section>
 
+    <!-- Academic & Technical Milestones -->
     <section
       id="certifications"
       class="py-24 px-4 max-w-7xl mx-auto border-t-4 border-black"
@@ -1334,7 +1178,7 @@
       <h2
         class="text-5xl md:text-8xl font-black uppercase mb-12 tracking-tighter text-center"
       >
-        Certs<span class="text-neo-red">_Log</span>
+        Milestones<span class="text-neo-red">_Log</span>
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1342,58 +1186,59 @@
           class="reveal bg-white border-4 border-black p-6 shadow-hard hover:shadow-hard-xl transition-all relative"
         >
           <span
-            class="absolute -top-3 -right-3 bg-neo-red text-white px-2 py-0.5 font-mono text-[10px] border-2 border-black"
-            >SOON</span
+            class="absolute -top-3 -right-3 bg-neo-green text-black px-2 py-0.5 font-mono text-[11px] font-bold border-2 border-black"
+            >COMPLETED</span
           >
           <div
             class="w-12 h-12 bg-neo-yellow border-2 border-black flex items-center justify-center mb-4"
           >
-            <i class="ri-award-line text-2xl"></i>
+            <i class="ri-code-box-line text-2xl"></i>
           </div>
           <h3 class="text-xl font-black uppercase mb-1">
-            <!-- REPLACE WITH REAL CERTIFICATE -->Certificate Name
+            C &amp; C++ Programming Foundations
           </h3>
-          <p class="font-mono text-sm text-gray-500">Issuing Platform · Date</p>
+          <p class="font-mono text-sm text-gray-600">SVIET Curriculum &bull; 2024</p>
         </div>
 
         <div
           class="reveal bg-white border-4 border-black p-6 shadow-hard hover:shadow-hard-xl transition-all relative"
         >
           <span
-            class="absolute -top-3 -right-3 bg-neo-red text-white px-2 py-0.5 font-mono text-[10px] border-2 border-black"
-            >SOON</span
+            class="absolute -top-3 -right-3 bg-neo-yellow text-black px-2 py-0.5 font-mono text-[11px] font-bold border-2 border-black"
+            >IN PROGRESS</span
           >
           <div
-            class="w-12 h-12 bg-neo-blue border-2 border-black flex items-center justify-center mb-4"
+            class="w-12 h-12 bg-neo-blue border-2 border-black flex items-center justify-center mb-4 text-white"
           >
-            <i class="ri-award-line text-2xl"></i>
+            <i class="ri-braces-line text-2xl"></i>
           </div>
           <h3 class="text-xl font-black uppercase mb-1">
-            <!-- REPLACE WITH REAL CERTIFICATE -->Certificate Name
+            Java &amp; Data Structures Mastery
           </h3>
-          <p class="font-mono text-sm text-gray-500">Issuing Platform · Date</p>
+          <p class="font-mono text-sm text-gray-600">Core CSE Specialization &bull; Semester 3</p>
         </div>
 
         <div
           class="reveal bg-white border-4 border-black p-6 shadow-hard hover:shadow-hard-xl transition-all relative"
         >
           <span
-            class="absolute -top-3 -right-3 bg-neo-red text-white px-2 py-0.5 font-mono text-[10px] border-2 border-black"
-            >SOON</span
+            class="absolute -top-3 -right-3 bg-neo-pink text-white px-2 py-0.5 font-mono text-[11px] font-bold border-2 border-black"
+            >ACTIVE</span
           >
           <div
             class="w-12 h-12 bg-neo-green border-2 border-black flex items-center justify-center mb-4"
           >
-            <i class="ri-award-line text-2xl"></i>
+            <i class="ri-palette-line text-2xl"></i>
           </div>
           <h3 class="text-xl font-black uppercase mb-1">
-            <!-- REPLACE WITH REAL CERTIFICATE -->Certificate Name
+            Creative Design &amp; Web Systems
           </h3>
-          <p class="font-mono text-sm text-gray-500">Issuing Platform · Date</p>
+          <p class="font-mono text-sm text-gray-600">Photoshop &amp; Frontend &bull; Ongoing</p>
         </div>
       </div>
     </section>
 
+    <!-- Contact Section with Accessible Form Validation -->
     <section id="contact" class="py-24 px-4 max-w-5xl mx-auto">
       <div
         class="bg-white border-4 border-black shadow-hard-xl p-8 md:p-12 relative reveal mt-12"
@@ -1404,11 +1249,14 @@
           <span class="font-black text-2xl">SAY HI</span>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 class="text-6xl font-black uppercase mb-6 leading-[0.85]">
               Let's<br />Connect
             </h2>
+            <p class="font-mono text-sm text-gray-600 mb-8">
+              Open for software development collaborations, web projects, and graphic design inquiries.
+            </p>
             <div class="space-y-4">
               <div class="flex items-center gap-4">
                 <div
@@ -1417,9 +1265,23 @@
                   <i class="ri-mail-line text-xl"></i>
                 </div>
                 <a
-                  href="mailto:mail@gmail.com"
-                  class="text-xl font-bold hover:bg-neo-blue cursor-hover"
+                  href="mailto:arjitkrmahato@gmail.com"
+                  class="text-lg md:text-xl font-bold hover:bg-neo-blue hover:text-white px-1 transition-colors cursor-hover"
                   >arjitkrmahato@gmail.com</a
+                >
+              </div>
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-12 h-12 bg-neo-black text-white flex items-center justify-center border-2 border-black"
+                >
+                  <i class="ri-github-line text-xl"></i>
+                </div>
+                <a
+                  href="https://github.com/Arjitkumar01"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-lg md:text-xl font-bold hover:bg-neo-yellow px-1 transition-colors cursor-hover"
+                  >github.com/Arjitkumar01</a
                 >
               </div>
               <div class="flex items-center gap-4">
@@ -1428,53 +1290,75 @@
                 >
                   <i class="ri-map-pin-line text-xl"></i>
                 </div>
-                <span class="text-xl font-bold">Remote / Earth</span>
+                <span class="text-lg md:text-xl font-bold">Punjab / India</span>
               </div>
             </div>
           </div>
 
+          <!-- Accessible Form adhering to modern-web-guidance validate-input-after-interaction -->
           <form
             id="contact-form"
-            class="space-y-6 bg-gray-50 p-6 border-2 border-black"
-            onsubmit="
-              event.preventDefault();
-              this.innerHTML =
-                '<div class=\'py-20 text-center\'><i class=\'ri-checkbox-circle-fill text-6xl text-neo-green mb-4 block\'></i><h3 class=\'text-2xl font-black uppercase\'>Transmission Received</h3><p class=\'font-mono text-sm mt-2\'>System response initialized. I will reach out shortly.</p></div>';
-            "
+            class="space-y-5 bg-gray-50 p-6 border-2 border-black"
+            novalidate
           >
             <div class="flex flex-col">
-              <label class="font-mono font-bold mb-1 uppercase text-xs"
+              <label for="contact-name" class="font-mono font-bold uppercase text-xs mb-1"
                 >Identity</label
               >
+              <span id="name-hint" class="form-field-hint">Your Name or Organization</span>
               <input
+                id="contact-name"
+                name="name"
                 type="text"
+                required
+                minlength="2"
+                autocomplete="name"
+                aria-describedby="name-hint"
                 placeholder="NAME / COMPANY"
                 class="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all cursor-hover"
               />
+              <span class="form-error-msg">&#10060; Please provide your name (at least 2 characters).</span>
             </div>
+
             <div class="flex flex-col">
-              <label class="font-mono font-bold mb-1 uppercase text-xs"
+              <label for="contact-email" class="font-mono font-bold uppercase text-xs mb-1"
                 >Coordinates</label
               >
+              <span id="email-hint" class="form-field-hint">Format: you@example.com</span>
               <input
+                id="contact-email"
+                name="email"
                 type="email"
+                required
+                autocomplete="email"
+                aria-describedby="email-hint"
                 placeholder="EMAIL ADDRESS"
                 class="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all cursor-hover"
               />
+              <span class="form-error-msg">&#10060; Please enter a valid email address.</span>
             </div>
+
             <div class="flex flex-col">
-              <label class="font-mono font-bold mb-1 uppercase text-xs"
+              <label for="contact-msg" class="font-mono font-bold uppercase text-xs mb-1"
                 >Transmission</label
               >
+              <span id="msg-hint" class="form-field-hint">Your message or project scope</span>
               <textarea
+                id="contact-msg"
+                name="message"
                 rows="4"
-                placeholder="PROJECT DETAILS..."
+                required
+                minlength="8"
+                aria-describedby="msg-hint"
+                placeholder="PROJECT DETAILS OR MESSAGE..."
                 class="bg-white border-2 border-black p-3 font-bold focus:outline-none focus:bg-neo-yellow focus:shadow-hard-sm transition-all resize-none cursor-hover"
               ></textarea>
+              <span class="form-error-msg">&#10060; Please write a short message (at least 8 characters).</span>
             </div>
+
             <button
               type="submit"
-              class="w-full bg-neo-blue text-white font-black text-xl py-4 border-2 border-black shadow-hard neo-button hover:bg-neo-black hover:translate-y-1 hover:shadow-none transition-all cursor-hover"
+              class="w-full bg-neo-blue text-white font-black text-xl py-4 border-2 border-black shadow-hard hover:bg-neo-green hover:text-black hover:translate-y-1 hover:shadow-none transition-all cursor-hover"
             >
               TRANSMIT DATA
             </button>
@@ -1483,6 +1367,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer
       class="bg-black text-white py-16 px-4 border-t-8 border-neo-green font-mono relative overflow-hidden"
     >
@@ -1490,10 +1375,10 @@
         class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10"
       >
         <div class="col-span-1 md:col-span-2">
-          <h2 class="text-4xl font-black mb-6">ARJIT.</h2>
-          <p class="text-gray-400 max-w-sm">
-            Hi, I'm Arjit — a B.Tech CSE student learning to build for the
-            web, one project at a time.
+          <h2 class="text-4xl font-black mb-4">ARJIT<span class="text-neo-green">.</span></h2>
+          <p class="text-gray-400 max-w-sm text-sm">
+            B.Tech CSE student at SVIET building clean web applications,
+            learning DSA, and designing high-impact visual artwork.
           </p>
         </div>
 
@@ -1503,7 +1388,7 @@
           >
             SITEMAP
           </h3>
-          <ul class="space-y-2 text-gray-400">
+          <ul class="space-y-2 text-gray-400 text-sm">
             <li>
               <a
                 href="#"
@@ -1513,16 +1398,23 @@
             </li>
             <li>
               <a
-                href="#projects"
+                href="#about"
                 class="hover:text-white hover:underline decoration-neo-pink decoration-2 cursor-hover"
-                >Works</a
+                >About</a
               >
             </li>
             <li>
               <a
-                href="#about"
+                href="#skills"
                 class="hover:text-white hover:underline decoration-neo-pink decoration-2 cursor-hover"
-                >About</a
+                >Tech Stack</a
+              >
+            </li>
+            <li>
+              <a
+                href="#projects"
+                class="hover:text-white hover:underline decoration-neo-pink decoration-2 cursor-hover"
+                >Selected Works</a
               >
             </li>
             <li>
@@ -1543,26 +1435,24 @@
           </h3>
           <div class="flex gap-4">
             <a
-              href=""
-              aria-label="Instagram"
-              class="text-2xl hover:text-neo-pink transition-colors cursor-hover"
-              ><i class="ri-instagram-fill"></i
-            ></a>
-            <a
               href="https://github.com/Arjitkumar01"
-              aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Profile"
               class="text-2xl hover:text-neo-yellow transition-colors cursor-hover"
               ><i class="ri-github-fill"></i
             ></a>
             <a
-              href="https://www.linkedin.com/in/arjit-kr-mahato-b73a6337b/"
-              aria-label="LinkedIn"
+              href="https://www.linkedin.com/in/arjit-kr-mahato-b73a6337b"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn Profile"
               class="text-2xl hover:text-neo-purple transition-colors cursor-hover"
               ><i class="ri-linkedin-fill"></i
             ></a>
             <a
               href="mailto:arjitkrmahato@gmail.com"
-              aria-label="Email"
+              aria-label="Send Email"
               class="text-2xl hover:text-neo-pink transition-colors cursor-hover"
               ><i class="ri-mail-fill"></i
             ></a>
@@ -1573,7 +1463,7 @@
       <div
         class="text-center mt-16 pt-8 border-t border-gray-800 text-gray-500 text-sm"
       >
-        <p>© 2026 Arjit Kumar Mahato</p>
+        <p>&copy; 2026 Arjit Kumar Mahato. Built with pure HTML, CSS &amp; JavaScript.</p>
       </div>
 
       <div
@@ -1582,6 +1472,7 @@
         ARJIT
       </div>
     </footer>
+
     <script src="Assets/app.js"></script>
   </body>
 </html>

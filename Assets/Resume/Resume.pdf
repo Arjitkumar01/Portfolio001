@@ -1,0 +1,75 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 720 >>
+stream
+BT
+/F2 24 Tf
+50 720 Td
+(ARJIT KUMAR MAHATO) Tj
+0 -24 Td
+/F1 12 Tf
+(B.Tech - Computer Science & Engineering | Semester 3) Tj
+0 -16 Td
+(Email: arjitkrmahato@gmail.com | GitHub: github.com/Arjitkumar01) Tj
+0 -25 Td
+/F2 14 Tf
+(EDUCATION) Tj
+0 -16 Td
+/F1 11 Tf
+(Swami Vivekanand Institute of Engineering and Technology (SVIET)) Tj
+0 -14 Td
+(B.Tech in Computer Science & Engineering (2024 - Present)) Tj
+0 -25 Td
+/F2 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -16 Td
+/F1 11 Tf
+(Languages: C, C++, Python, Java, JavaScript) Tj
+0 -14 Td
+(Web Technologies: HTML5, CSS3, Tailwind CSS, DOM Manipulation) Tj
+0 -14 Td
+(Core Concepts: Data Structures & Algorithms, Object-Oriented Programming, Git) Tj
+0 -14 Td
+(Creative Design: Adobe Photoshop, Poster Design, UI Composition) Tj
+0 -25 Td
+/F2 14 Tf
+(SELECTED PROJECTS) Tj
+0 -16 Td
+/F1 11 Tf
+(1. Neo-Brutalist Developer Portfolio - Responsive, custom cursor & terminal preloader) Tj
+0 -14 Td
+(2. Graphic Design Showcase - Commercial & editorial posters in Photoshop) Tj
+0 -14 Td
+(3. Algorithm Implementations - DSA problem solutions in C++ & Java) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000001016 00000 n 
+0000001083 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1155
+%%EOF

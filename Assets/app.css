@@ -1,5 +1,9 @@
+/* ==========================================================================
+   ARJIT | NEO-BRUTALIST PORTFOLIO STYLES
+   ========================================================================== */
+
+/* Base & Background Matrix */
 body {
-  cursor: none;
   background-color: #fffdf5;
   background-image:
     radial-gradient(#000 1px, transparent 1px),
@@ -11,18 +15,65 @@ body {
     100px 100px;
 }
 
+/* Custom Cursor - Only enabled on fine-pointer devices (mouse/trackpad) */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  a, button, input, textarea, select, [role="button"] {
+    cursor: none !important;
+  }
+}
+
 #cursor {
   pointer-events: none;
   position: fixed;
   z-index: 9999;
   mix-blend-mode: normal;
+  opacity: 0;
+  transform: translate(-50%, -50%);
   transition:
-    width 0.2s,
-    height 0.2s,
-    background-color 0.2s,
-    transform 0.1s;
+    width 0.18s ease-out,
+    height 0.18s ease-out,
+    background-color 0.18s ease-out,
+    border-color 0.18s ease-out,
+    opacity 0.2s ease-out;
+  will-change: left, top, width, height, transform;
 }
 
+#cursor.cursor-active {
+  opacity: 1;
+}
+
+/* Navigation Items & Dynamic Active Highlight */
+.nav-item {
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.nav-item.active {
+  background-color: #fbff48 !important; /* neo-yellow */
+  color: #121212 !important;
+  border-color: #000000 !important;
+}
+
+.nav-item.active:hover {
+  background-color: #ff70a6 !important; /* neo-pink */
+  color: #121212 !important;
+}
+
+/* Scroll Offset for Sticky Navigation */
+#about,
+#skills,
+#experience,
+#coding-stats,
+#projects,
+#certifications,
+#contact {
+  scroll-margin-top: 5.5rem;
+}
+
+/* Marquee Scroller */
 .marquee-container {
   overflow: hidden;
   -ms-overflow-style: none;
@@ -33,6 +84,7 @@ body {
   display: flex;
   animation: scroll 40s linear infinite;
   width: max-content;
+  will-change: transform;
 }
 
 .marquee-container:hover .marquee-content {
@@ -52,10 +104,12 @@ body {
   display: none;
 }
 
+/* Scroll Reveal Elements */
 .reveal {
   opacity: 0;
-  transform: translateY(40px);
-  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  transform: translateY(32px);
+  transition: opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1), transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: opacity, transform;
 }
 
 .reveal.active {
@@ -63,6 +117,7 @@ body {
   transform: translateY(0);
 }
 
+/* Glitch Hover Effect */
 .glitch-hover:hover {
   animation: glitch-anim 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
   color: #ff2a2a;
@@ -89,6 +144,7 @@ body {
   }
 }
 
+/* Custom Brutalist Scrollbar */
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -108,6 +164,7 @@ body {
   background: #ff70a6;
 }
 
+/* Preloader Lifecycle */
 html.is-loading {
   overflow: hidden;
 }
@@ -133,14 +190,14 @@ html.is-loading {
   transform: translateY(0%);
   opacity: 1;
   transition:
-    transform 1.3s cubic-bezier(0.77, 0, 0.175, 1),
-    opacity 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+    transform 0.65s cubic-bezier(0.77, 0, 0.175, 1),
+    opacity 0.6s ease;
   will-change: transform, opacity;
 }
 
 .preloader-exit {
   transform: translateY(-100%);
-  opacity: 0.95;
+  opacity: 0;
   pointer-events: none;
 }
 
@@ -215,12 +272,12 @@ html.is-loading {
 
 @keyframes core-bounce {
   0% {
-    transform: scale(0.9) rotate(-4deg);
+    transform: scale(0.92) rotate(-3deg);
     box-shadow: 4px 4px 0px #000;
   }
   100% {
-    transform: scale(1.1) rotate(4deg);
-    box-shadow: 10px 10px 0px #000;
+    transform: scale(1.06) rotate(3deg);
+    box-shadow: 8px 8px 0px #000;
     background: #33ff57;
   }
 }
@@ -282,7 +339,7 @@ html.is-loading {
   background: linear-gradient(90deg, #fbff48, #ff70a6, #33ff57);
   background-size: 200% 100%;
   animation: gradient-shift 2s linear infinite;
-  transition: width 0.1s linear;
+  transition: width 0.08s linear;
 }
 
 @keyframes gradient-shift {
@@ -294,24 +351,62 @@ html.is-loading {
   }
 }
 
+/* Hero reveal animations */
 .hero-reveal,
 .hero-reveal-top {
   opacity: 0;
   transition:
-    opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1),
-    transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    opacity 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+    transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: opacity, transform;
 }
 
 .hero-reveal {
-  transform: translateY(40px);
+  transform: translateY(32px);
 }
 
 .hero-reveal-top {
-  transform: translateY(-24px);
+  transform: translateY(-20px);
 }
 
 .hero-reveal.active,
 .hero-reveal-top.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Accessible Modern Form Validation Styles */
+input:user-invalid,
+textarea:user-invalid {
+  border-color: #ff2a2a !important;
+  background-color: #fff1f1 !important;
+  box-shadow: 3px 3px 0 0 #ff2a2a !important;
+}
+
+input:user-valid,
+textarea:user-valid {
+  border-color: #16a34a !important;
+}
+
+.form-field-hint {
+  display: block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.form-error-msg {
+  display: none;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #ff2a2a;
+  margin-top: 0.35rem;
+}
+
+input:user-invalid + .form-error-msg,
+textarea:user-invalid + .form-error-msg {
+  display: block;
 }
