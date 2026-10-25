@@ -284,59 +284,355 @@
     <!-- About Section -->
     <section
       id="about"
-      class="py-24 px-4 max-w-7xl mx-auto border-x-4 border-black bg-white my-12 shadow-hard-lg"
+      class="py-16 md:py-24 px-4 sm:px-6 max-w-7xl mx-auto my-8"
     >
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-        <div class="md:col-span-4 reveal">
-          <div
-            class="aspect-square bg-gray-200 border-4 border-black relative shadow-hard overflow-hidden group"
-          >
-            <img
-              src="Assets/images/main.png"
-              alt="Arjit Kumar Mahato"
-              fetchpriority="high"
-              decoding="async"
-              class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-            />
+      <div
+        class="reveal bg-neo-white border-4 border-black p-5 sm:p-8 md:p-10 shadow-hard-xl"
+      >
+        <!-- Top System Breadcrumb Header -->
+        <div
+          class="flex flex-wrap items-center justify-between gap-2 pb-4 mb-8 border-b-4 border-black font-mono text-xs sm:text-sm font-bold"
+        >
+          <div class="flex items-center gap-2">
             <span
-              class="absolute top-2 left-2 bg-neo-red text-white px-2 font-mono text-xs border border-black z-10"
-              >ARJIT</span
+              class="bg-neo-black text-neo-green px-2.5 py-1 border-2 border-black tracking-wider uppercase shadow-hard-sm"
             >
+              &lt; ABOUT /&gt;
+            </span>
+            <span class="text-gray-500 hidden sm:inline">// SYSTEM_BIO</span>
+          </div>
+          <div class="flex items-center gap-2 text-neo-black tracking-widest text-xs uppercase">
+            <span>GET TO KNOW ME</span>
+            <span class="text-neo-pink font-black">///</span>
           </div>
         </div>
-        <div class="md:col-span-8 flex flex-col justify-center reveal">
-          <h2 class="text-5xl md:text-6xl font-black uppercase mb-6">Who am I?</h2>
-          <p class="font-mono text-xl leading-relaxed mb-6">
-            I'm <b>Arjit</b> &mdash; a B.Tech Computer Science &amp; Engineering student
-            figuring out how clean code and <span class="bg-neo-yellow px-1 border border-black font-bold">visual design</span>
-            come together to create unforgettable digital experiences.
-          </p>
-          <p
-            class="font-mono text-lg mb-8 text-gray-700 border-l-4 border-neo-purple pl-4 space-y-1"
-          >
-            &gt; Building core programming foundations in C, C++, and Python.<br />
-            &gt; Mastering Java alongside Data Structures &amp; Algorithms.<br />
-            &gt; Developing responsive, interactive web interfaces with modern web standards.<br />
-            &gt; Designing commercial &amp; editorial graphics in Adobe Photoshop.
-          </p>
 
-          <div class="flex flex-wrap gap-4">
-            <div
-              class="bg-neo-black text-white px-4 py-2 font-mono text-sm border-2 border-black"
-            >
-              ⾕ SEMESTER: 03
+        <!-- Main 3-Column Grid Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          <!-- Column 1: Profile Photo with HUD Frame & Quick Stats (lg:col-span-4) -->
+          <div class="lg:col-span-4 flex flex-col gap-4">
+            <!-- HUD Framed Portrait Container -->
+            <div class="relative group">
+              <!-- Sci-Fi / Cyber Corner Brackets -->
+              <div
+                class="absolute -top-2 -left-2 w-6 h-6 border-t-4 border-l-4 border-neo-yellow z-20 pointer-events-none"
+              ></div>
+              <div
+                class="absolute -top-2 -right-2 w-6 h-6 border-t-4 border-r-4 border-neo-yellow z-20 pointer-events-none"
+              ></div>
+              <div
+                class="absolute -bottom-2 -left-2 w-6 h-6 border-b-4 border-l-4 border-neo-yellow z-20 pointer-events-none"
+              ></div>
+              <div
+                class="absolute -bottom-2 -right-2 w-6 h-6 border-b-4 border-r-4 border-neo-yellow z-20 pointer-events-none"
+              ></div>
+
+              <!-- Photo Frame -->
+              <div
+                class="aspect-[4/5] bg-neo-black border-4 border-black relative shadow-hard overflow-hidden"
+              >
+                <!-- Arjit's Profile Picture -->
+                <img
+                  src="Assets/images/main pic.jpg"
+                  alt="Arjit Kumar Mahato - B.Tech CSE Student & Developer"
+                  loading="lazy"
+                  decoding="async"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                />
+
+                <!-- Top Corner Identifier Tag -->
+                <span
+                  class="absolute top-3 left-3 bg-neo-black/90 text-white font-mono text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 border border-white/20 z-10"
+                >
+                  [ ID: ARJIT_01 ]
+                </span>
+              </div>
             </div>
+
+            <!-- HUD Status Pill Badge -->
             <div
-              class="bg-neo-green text-black px-4 py-2 font-mono text-sm border-2 border-black font-bold"
+              class="bg-neo-black text-white border-2 border-black p-3.5 shadow-hard-sm font-mono"
             >
-              𓏲ּ𝄢 STATUS: ACTIVE_BUILDER
+              <div class="flex items-center gap-2 mb-1">
+                <span class="inline-block w-2.5 h-2.5 rounded-full bg-neo-green animate-pulse"></span>
+                <span class="inline-block w-2 h-2 rounded-full bg-neo-yellow"></span>
+                <span class="font-bold text-xs uppercase tracking-wider text-white">CSE STUDENT</span>
+              </div>
+              <div class="text-[11px] text-gray-300 font-medium tracking-wider">
+                // LEARNING &bull; BUILDING &bull; GROWING
+              </div>
             </div>
-            <div
-              class="bg-neo-yellow text-black px-4 py-2 font-mono text-sm border-2 border-black font-bold"
-            >
-              📍 SVIET, CSE
+
+            <!-- Quick Info 2x2 Grid -->
+            <div class="grid grid-cols-2 gap-3">
+              <!-- Info 1: Academic Year -->
+              <div
+                class="bg-white border-2 border-black p-3 shadow-hard-sm flex items-center gap-2.5 hover:-translate-y-0.5 transition-transform"
+              >
+                <div
+                  class="w-10 h-10 bg-neo-yellow/30 border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-book-open-line text-lg text-black"></i>
+                </div>
+                <div>
+                  <div class="font-black text-sm text-black leading-tight">2nd Year</div>
+                  <div class="font-mono text-[11px] text-gray-600">B.Tech CSE</div>
+                </div>
+              </div>
+
+              <!-- Info 2: University -->
+              <div
+                class="bg-white border-2 border-black p-3 shadow-hard-sm flex items-center gap-2.5 hover:-translate-y-0.5 transition-transform"
+              >
+                <div
+                  class="w-10 h-10 bg-neo-blue/30 border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-community-line text-lg text-black"></i>
+                </div>
+                <div>
+                  <div class="font-black text-sm text-black leading-tight">SVIET</div>
+                  <div class="font-mono text-[11px] text-gray-600">Chandigarh</div>
+                </div>
+              </div>
+
+              <!-- Info 3: Community Role -->
+              <div
+                class="bg-white border-2 border-black p-3 shadow-hard-sm flex items-center gap-2.5 hover:-translate-y-0.5 transition-transform"
+              >
+                <div
+                  class="w-10 h-10 bg-neo-pink/30 border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-team-line text-lg text-black"></i>
+                </div>
+                <div>
+                  <div class="font-black text-sm text-black leading-tight">Tech Lead</div>
+                  <div class="font-mono text-[11px] text-gray-600">Uniques 5.0</div>
+                </div>
+              </div>
+
+              <!-- Info 4: Core Passion -->
+              <div
+                class="bg-white border-2 border-black p-3 shadow-hard-sm flex items-center gap-2.5 hover:-translate-y-0.5 transition-transform"
+              >
+                <div
+                  class="w-10 h-10 bg-neo-green/30 border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-code-s-slash-line text-lg text-black"></i>
+                </div>
+                <div>
+                  <div class="font-black text-sm text-black leading-tight">Passionate</div>
+                  <div class="font-mono text-[11px] text-gray-600">About Building</div>
+                </div>
+              </div>
             </div>
           </div>
+
+          <!-- Column 2: Center Main Bio (lg:col-span-5) -->
+          <div class="lg:col-span-5 flex flex-col justify-between h-full">
+            <div>
+              <!-- Big Section Heading -->
+              <h2
+                class="text-4xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight mb-3 text-neo-black"
+              >
+                About <span
+                  class="bg-neo-yellow text-neo-black px-2.5 py-0.5 border-2 border-black shadow-hard-sm inline-block rotate-[-1deg]"
+                  >Me</span
+                >
+              </h2>
+
+              <!-- Friendly Greeting -->
+              <h3
+                class="font-display font-black text-2xl sm:text-3xl text-neo-black mb-4 flex items-center gap-2"
+              >
+                Hey, I'm <span class="text-neo-blue underline decoration-black decoration-4">Arjit</span>
+                <span class="inline-block animate-bounce text-2xl">👋</span>
+              </h3>
+
+              <!-- Bio Paragraphs - Balanced & Rich -->
+              <div class="font-mono text-sm sm:text-base text-gray-800 space-y-3.5 leading-relaxed">
+                <p>
+                  I'm a <strong class="text-black bg-neo-yellow/40 px-1 border-b-2 border-black">B.Tech CSE</strong> student at
+                  <strong class="text-black">SVIET, Chandigarh</strong>, currently in my <strong class="text-black">2nd year</strong>. I love turning ideas into real-world projects through code and design, with a strong focus on
+                  <strong class="text-black bg-neo-green/40 px-1 border-b-2 border-black">Java, DSA</strong> and
+                  <strong class="text-black bg-neo-green/40 px-1 border-b-2 border-black">Full-Stack Web Development</strong>.
+                </p>
+
+                <p>
+                  I also serve as the <strong class="text-black bg-neo-pink/30 px-1 border-b-2 border-black">Tech Lead</strong> for the
+                  <strong class="text-black font-bold">Uniques 5.0</strong> community, collaborating with fellow developers to lead tech sessions and build solutions that solve real problems.
+                </p>
+
+                <p>
+                  Alongside engineering, I craft visual identities in <strong class="text-black bg-neo-blue/20 px-1 border-b-2 border-black">Photoshop &amp; Canva</strong>, participate in <strong class="text-black">hackathons</strong>, and believe in consistent daily practice to build meaningful technology step by step.
+                </p>
+              </div>
+            </div>
+
+            <!-- Motivational Quote Callout Box -->
+            <div
+              class="mt-6 p-4 bg-white border-2 border-black border-l-8 border-l-neo-green shadow-hard-sm"
+            >
+              <div class="flex items-start gap-3">
+                <span class="font-display font-black text-3xl text-neo-black leading-none select-none">&ldquo;</span>
+                <p class="font-mono text-sm sm:text-base italic font-bold text-gray-900 pt-0.5">
+                  Learning today, to <span class="not-italic bg-neo-yellow px-1 border border-black text-black">build a better tomorrow.</span> &rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Sidebar Highlight Panels (lg:col-span-3) -->
+          <div class="lg:col-span-3 flex flex-col gap-5 sm:gap-6">
+            <!-- Panel 1: CURRENT FOCUS -->
+            <div
+              class="bg-white border-2 border-black p-3.5 shadow-hard hover:shadow-hard-lg hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex items-center gap-2 font-mono font-black text-xs sm:text-sm uppercase text-neo-black border-b-2 border-black pb-1.5 mb-2.5"
+              >
+                <div
+                  class="w-6 h-6 bg-neo-pink border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-focus-3-line text-xs text-black"></i>
+                </div>
+                <span>Current Focus</span>
+              </div>
+              <ul class="font-mono text-xs text-gray-800 space-y-1.5">
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-pink shrink-0"></span>
+                  <span>Java &amp; DSA Problem Solving</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-pink shrink-0"></span>
+                  <span>Full-Stack Web Development</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-pink shrink-0"></span>
+                  <span>Building Production Apps</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-pink shrink-0"></span>
+                  <span>Clean Architecture &amp; APIs</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Panel 2: GOALS -->
+            <div
+              class="bg-white border-2 border-black p-3.5 shadow-hard hover:shadow-hard-lg hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex items-center gap-2 font-mono font-black text-xs sm:text-sm uppercase text-neo-black border-b-2 border-black pb-1.5 mb-2.5"
+              >
+                <div
+                  class="w-6 h-6 bg-neo-orange border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-rocket-2-line text-xs text-black"></i>
+                </div>
+                <span>Goals</span>
+              </div>
+              <ul class="font-mono text-xs text-gray-800 space-y-1.5">
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-orange shrink-0"></span>
+                  <span>Engineer High-Impact Software</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-orange shrink-0"></span>
+                  <span>Open Source Contributions</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-orange shrink-0"></span>
+                  <span>Industry Software Internship</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-orange shrink-0"></span>
+                  <span>Win Technical Hackathons</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Panel 3: INTERESTS -->
+            <div
+              class="bg-white border-2 border-black p-3.5 shadow-hard hover:shadow-hard-lg hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex items-center gap-2 font-mono font-black text-xs sm:text-sm uppercase text-neo-black border-b-2 border-black pb-1.5 mb-2.5"
+              >
+                <div
+                  class="w-6 h-6 bg-neo-green border border-black flex items-center justify-center shrink-0 shadow-hard-sm"
+                >
+                  <i class="ri-gamepad-line text-xs text-black"></i>
+                </div>
+                <span>Interests</span>
+              </div>
+              <ul class="font-mono text-xs text-gray-800 space-y-1.5">
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-green shrink-0"></span>
+                  <span>UI/UX &amp; Poster Art</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-green shrink-0"></span>
+                  <span>Hackathons &amp; Dev Meetups</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-green shrink-0"></span>
+                  <span>Photoshop &amp; Visual Design</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-neo-green shrink-0"></span>
+                  <span>Emerging Web Technologies</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Action Cards (Full-Width 3-Column Responsive Row) -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t-4 border-black border-dashed"
+        >
+          <!-- 1. Download Resume Button -->
+          <a
+            href="Assets/Resume/Resume.pdf"
+            download="Arjit_Kumar_Mahato_Resume.pdf"
+            class="group bg-neo-black text-white hover:bg-neo-yellow hover:text-black border-2 border-black p-4 font-mono font-bold text-sm flex items-center justify-between shadow-hard hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all cursor-hover"
+          >
+            <div class="flex items-center gap-3">
+              <i class="ri-download-2-line text-xl text-neo-yellow group-hover:text-black transition-colors"></i>
+              <span>Download Resume</span>
+            </div>
+            <i class="ri-arrow-right-line text-xl group-hover:translate-x-1 transition-transform"></i>
+          </a>
+
+          <!-- 2. View GitHub Button -->
+          <a
+            href="https://github.com/Arjitkumar01"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Arjit's GitHub profile"
+            class="group bg-neo-black text-white hover:bg-neo-green hover:text-black border-2 border-black p-4 font-mono font-bold text-sm flex items-center justify-between shadow-hard hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all cursor-hover"
+          >
+            <div class="flex items-center gap-3">
+              <i class="ri-github-fill text-xl text-neo-green group-hover:text-black transition-colors"></i>
+              <span>View GitHub</span>
+            </div>
+            <i class="ri-arrow-right-line text-xl group-hover:translate-x-1 transition-transform"></i>
+          </a>
+
+          <!-- 3. Connect on LinkedIn Button -->
+          <a
+            href="https://www.linkedin.com/in/arjit-kr-mahato-b73a6337b"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Connect with Arjit on LinkedIn"
+            class="group bg-neo-black text-white hover:bg-neo-blue hover:text-white border-2 border-black p-4 font-mono font-bold text-sm flex items-center justify-between shadow-hard hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all cursor-hover"
+          >
+            <div class="flex items-center gap-3">
+              <i class="ri-linkedin-box-fill text-xl text-neo-blue group-hover:text-white transition-colors"></i>
+              <span>Connect on LinkedIn</span>
+            </div>
+            <i class="ri-arrow-right-line text-xl group-hover:translate-x-1 transition-transform"></i>
+          </a>
         </div>
       </div>
     </section>
