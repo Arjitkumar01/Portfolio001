@@ -845,46 +845,93 @@
             </div>
           </article>
 
-          <!-- Web Project 2: Graphic Design Repository -->
+          <!-- ========================================================================= -->
+          <!-- TEMPLATE: WEB PROJECT 02 (COMING SOON)                                   -->
+          <!-- NOTE FOR ARJIT: When ready to upload your real project:                  -->
+          <!--   1. Replace the inner placeholder <div> with:                            -->
+          <!--      <img src="Assets/images/your-project.png" alt="..."                  -->
+          <!--           class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" /> -->
+          <!--   2. Change "PROJECT COMING SOON" to your project name                    -->
+          <!--   3. Update the description paragraph with your project details           -->
+          <!--   4. Update tech badges (e.g. REACT, NODE, MONGODB)                       -->
+          <!--   5. Set the <a> href to your GitHub repo or live URL                     -->
+          <!-- ========================================================================= -->
           <article
-            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between mt-0 md:mt-16"
+            class="reveal group bg-white border-4 border-black p-4 shadow-hard flex flex-col justify-between mt-0 md:mt-16 relative"
           >
             <div>
+              <!-- Visual Placeholder with Neo-Brutalist Cyber Grid & Badge -->
               <div
-                class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6"
+                class="bg-[#0f0f0f] border-2 border-black aspect-video relative overflow-hidden mb-6 flex flex-col items-center justify-center select-none"
+                style="background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px); background-size: 16px 16px;"
               >
-                <img
-                  src="Assets/images/7.1.png"
-                  alt="Designing Work Showcase"
-                  loading="lazy"
-                  decoding="async"
-                  class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
-                />
+                <!-- Subtle Diagonal Construction Stripes -->
+                <div
+                  class="absolute inset-0 opacity-10 pointer-events-none"
+                  style="background-image: repeating-linear-gradient(45deg, #fff 0, #fff 10px, transparent 10px, transparent 20px);"
+                ></div>
+
+                <!-- Top Left & Bottom Right Corner Tags -->
+                <span class="absolute top-2 left-2 font-mono text-[10px] text-white/40 font-bold uppercase tracking-wider">
+                  [ SLOT // 02 ]
+                </span>
+                <span class="absolute bottom-2 right-2 font-mono text-[10px] text-neo-green font-bold">
+                  &gt;&gt; DEV_BUILD
+                </span>
+
+                <!-- Pulsing Coming Soon Badge -->
+                <div
+                  class="relative z-10 flex items-center gap-2 bg-neo-yellow text-black border-2 border-black px-3 py-1 font-mono text-xs font-black uppercase tracking-wider shadow-hard-sm mb-3"
+                >
+                  <span class="relative flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-neo-red opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-neo-red"></span>
+                  </span>
+                  Coming Soon
+                </div>
+
+                <!-- Cyber Terminal Status -->
+                <div class="relative z-10 flex flex-col items-center text-center px-4">
+                  <i class="ri-code-box-line text-4xl text-neo-green mb-1 group-hover:scale-110 transition-transform"></i>
+                  <span class="font-mono text-xs text-green-400 font-bold tracking-widest uppercase">
+                    // REPO_INITIALIZING...
+                  </span>
+                  <span class="font-mono text-[10px] text-gray-400 mt-0.5">
+                    Next Project Dropping Soon
+                  </span>
+                </div>
               </div>
+
+              <!-- Project Title -->
               <h4
                 class="text-3xl md:text-4xl font-black uppercase mb-2 group-hover:text-neo-blue transition-colors glitch-hover"
               >
-                Designing Work Collection
+                Project Coming Soon
               </h4>
+
+              <!-- Project Description -->
               <p class="font-mono text-sm mb-4 text-gray-700">
-                Curated repository of Adobe Photoshop creative projects, including commercial brand advertisements,
-                music tour flyers, and athletic posters.
+                A new full-stack / frontend web application is currently under construction.
+                This slot is reserved for the next deployment — source code, live preview, and technical breakdown dropping soon.
               </p>
             </div>
+
+            <!-- Footer: Tech Tags & Action Link -->
             <div class="flex justify-between items-center pt-2 border-t-2 border-dashed border-gray-200">
               <div class="flex gap-2 font-mono text-xs font-bold flex-wrap">
-                <span class="bg-neo-black text-white px-2 py-1">PHOTOSHOP</span>
-                <span class="bg-neo-black text-white px-2 py-1">POSTERS</span>
-                <span class="bg-neo-black text-white px-2 py-1">BRANDING</span>
+                <span class="bg-neo-black text-white px-2 py-1">WEB DEV</span>
+                <span class="bg-neo-black text-white px-2 py-1">FULL STACK</span>
+                <span class="bg-neo-yellow text-black border border-black px-2 py-1">IN PROGRESS</span>
               </div>
               <a
-                href="https://github.com/Arjitkumar01/designing_work"
+                href="https://github.com/Arjitkumar01"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Designing Work repository on GitHub"
-                class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
+                aria-label="Upcoming Project - View Arjit's GitHub profile"
+                title="Coming Soon // Follow on GitHub"
+                class="w-12 h-12 border-2 border-black bg-neo-yellow flex items-center justify-center hover:bg-black hover:text-neo-yellow transition-all cursor-hover shadow-hard-sm group/btn"
               >
-                <i class="ri-arrow-right-up-line text-2xl"></i>
+                <i class="ri-time-line text-2xl group-hover/btn:rotate-45 transition-transform"></i>
               </a>
             </div>
           </article>
