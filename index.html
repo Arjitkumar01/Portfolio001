@@ -159,49 +159,58 @@
     ></div>
 
     <!-- Top Sticky Navigation -->
-    <nav class="fixed top-0 w-full z-50 px-4 py-4 pointer-events-none">
+    <nav class="fixed top-0 w-full z-50 px-4 sm:px-8 py-4 pointer-events-none">
       <div
         class="max-w-7xl mx-auto flex justify-between items-center pointer-events-auto hero-reveal-top"
       >
+        <!-- Logo with yellow circle badge accent -->
         <a
           href="#"
-          class="bg-neo-white border-2 border-black px-4 py-1 text-2xl font-black shadow-hard hover:bg-neo-yellow transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none cursor-hover tracking-tight"
+          class="relative inline-block group cursor-hover select-none"
         >
-          ARJIT<span class="text-neo-red">.</span>
+          <div
+            class="bg-white border-2 sm:border-[3px] border-black px-4 sm:px-5 py-2 font-display font-black text-xl sm:text-2xl tracking-tight shadow-hard hover:bg-neo-yellow transition-colors"
+          >
+            ARJIT<span class="text-neo-red">.</span>
+          </div>
+          <div
+            class="absolute -bottom-2 -left-2 w-5 h-5 rounded-full bg-neo-yellow border-2 border-black -z-10 group-hover:scale-125 transition-transform"
+          ></div>
         </a>
 
+        <!-- Desktop Navigation Pill -->
         <div
           id="navLinksContainer"
-          class="hidden md:flex gap-4 bg-white border-2 border-black p-2 shadow-hard"
+          class="hidden md:flex items-center gap-6 bg-white border-2 sm:border-[3px] border-black px-6 py-2.5 shadow-hard font-mono text-xs sm:text-sm font-bold"
         >
           <a
             href="#about"
-            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-1 py-0.5 hover:text-neo-blue transition-colors cursor-hover"
             >/ABOUT</a
           >
           <a
             href="#skills"
-            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-1 py-0.5 hover:text-neo-blue transition-colors cursor-hover"
             >/SKILLS</a
           >
           <a
             href="#experience"
-            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-1 py-0.5 hover:text-neo-blue transition-colors cursor-hover"
             >/LOGS</a
           >
           <a
             href="#coding-stats"
-            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-1 py-0.5 hover:text-neo-blue transition-colors cursor-hover"
             >/STATS</a
           >
           <a
             href="#projects"
-            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-1 py-0.5 hover:text-neo-blue transition-colors cursor-hover"
             >/WORK</a
           >
           <a
             href="#contact"
-            class="nav-item px-3 py-1 font-mono font-bold text-sm hover:bg-black hover:text-white transition-colors cursor-hover"
+            class="nav-item px-1 py-0.5 hover:text-neo-blue transition-colors cursor-hover"
             >CONTACT</a
           >
         </div>
@@ -210,76 +219,246 @@
 
     <!-- Hero Section -->
     <header
-      class="min-h-screen flex flex-col justify-center items-center px-4 pt-20 relative overflow-hidden border-b-4 border-black"
+      class="min-h-screen pt-24 sm:pt-28 pb-0 flex flex-col justify-between relative overflow-hidden border-b-4 border-black"
     >
-      <div
-        class="absolute top-1/3 left-[10%] w-16 h-16 bg-neo-blue border-4 border-black shadow-hard animate-bounce hidden lg:block rotate-12"
-      ></div>
-      <div
-        class="absolute bottom-1/3 right-[10%] w-24 h-24 bg-neo-pink rounded-full border-4 border-black shadow-hard hidden lg:block animate-pulse"
-      ></div>
-      <div
-        class="absolute top-20 right-20 text-9xl opacity-5 font-black select-none pointer-events-none"
-      >
-        ARJIT
+      <!-- Main 2-Column Content Canvas -->
+      <div class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12 my-auto relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
+          <!-- Left Column: Typography, Degree, Bio Card, CTAs (lg:col-span-7) -->
+          <div class="lg:col-span-7 flex flex-col items-start relative hero-reveal">
+            <!-- Mid-Left Blue Square (Upright with hard shadow, placed to the left of ARJIT as in reference) -->
+            <div
+              class="hidden xl:block absolute -left-16 lg:-left-20 top-2 w-12 h-12 lg:w-14 lg:h-14 bg-neo-blue border-2 sm:border-[3px] border-black shadow-hard z-0 pointer-events-none"
+            ></div>
+
+            <!-- Pre-title: HI, I'M ────── -->
+            <div
+              class="flex items-center gap-3 mb-2 font-mono font-black text-sm sm:text-base tracking-widest text-neo-black uppercase"
+            >
+              <span>HI, I'M</span>
+              <div class="h-[2.5px] w-20 sm:w-28 bg-black"></div>
+            </div>
+
+            <!-- Massive Brutalist Name -->
+            <h1 class="font-display font-black uppercase tracking-tight mb-4 select-none">
+              <span
+                class="block text-6xl sm:text-7xl md:text-8xl xl:text-9xl text-neo-black leading-[0.85] tracking-tight drop-shadow-sm"
+              >
+                ARJIT
+              </span>
+              <span
+                class="block text-4xl sm:text-5xl md:text-6xl xl:text-7xl text-white leading-[0.92] tracking-tight mt-1"
+                style="-webkit-text-stroke: 2.5px black; text-stroke: 2.5px black;"
+              >
+                KUMAR MAHATO
+              </span>
+            </h1>
+
+            <!-- Degree & College Pill Badge -->
+            <div
+              class="inline-flex items-center bg-white border-2 border-black px-4 py-1.5 font-mono text-xs sm:text-sm font-black uppercase tracking-wider shadow-hard-sm mb-6"
+            >
+              B.TECH CSE &bull; SVIET CHANDIGARH
+            </div>
+
+            <!-- Yellow Bio Card with Short Separator -->
+            <div
+              class="bg-neo-yellow border-2 sm:border-[3px] border-black p-5 sm:p-6 shadow-hard mb-8 max-w-xl"
+            >
+              <p
+                class="font-mono text-sm sm:text-base md:text-lg font-bold text-black leading-snug mb-3.5"
+              >
+                Building modern web systems &amp; visual interfaces with clean code and creativity.
+              </p>
+              <div class="h-[2px] w-14 bg-black mb-3.5"></div>
+              <p
+                class="font-mono text-xs sm:text-sm font-bold sm:font-black text-black tracking-wide"
+              >
+                Java &bull; DSA &bull; Web Development &bull; UI/UX Design
+              </p>
+            </div>
+
+            <!-- CTA Action Buttons -->
+            <div class="flex flex-wrap items-center gap-4">
+              <a
+                href="#projects"
+                class="bg-black text-white border-2 sm:border-[2.5px] border-black px-6 sm:px-8 py-3.5 sm:py-4 font-mono font-bold text-xs sm:text-sm tracking-wider shadow-hard hover:bg-neo-green hover:text-black hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all cursor-hover inline-flex items-center gap-2 uppercase"
+              >
+                <span>VIEW MY PROJECTS</span>
+                <span class="text-base font-bold">&rarr;</span>
+              </a>
+              <a
+                href="Assets/Resume/Resume.pdf"
+                download="Arjit_Kumar_Mahato_Resume.pdf"
+                class="bg-white text-black border-2 sm:border-[2.5px] border-black px-6 sm:px-8 py-3.5 sm:py-4 font-mono font-bold text-xs sm:text-sm tracking-wider shadow-hard hover:bg-neo-yellow hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all cursor-hover inline-flex items-center gap-2 uppercase"
+              >
+                <span class="text-base font-bold">&darr;</span>
+                <span>DOWNLOAD CV</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Terminal Window & Floating Badges (lg:col-span-5) -->
+          <div
+            class="lg:col-span-5 flex items-center justify-center lg:justify-end gap-4 sm:gap-6 relative pt-4 lg:pt-0 hero-reveal"
+          >
+            <!-- Overlapping Yellow Circle behind Top-Left of Terminal -->
+            <div
+              class="absolute -top-5 -left-3 sm:-top-7 sm:-left-5 w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-neo-yellow border-2 sm:border-[3px] border-black z-0 pointer-events-none"
+            ></div>
+
+            <!-- The Cyber Terminal Window -->
+            <div
+              class="relative z-10 w-full max-w-[340px] sm:max-w-[380px] xl:max-w-[420px] bg-[#0c0c0c] border-2 sm:border-[3px] border-black rounded-2xl shadow-hard-xl overflow-hidden font-mono"
+            >
+              <!-- Window Titlebar -->
+              <div
+                class="bg-white border-b-2 sm:border-b-[3px] border-black px-4 py-2.5 flex items-center justify-between select-none"
+              >
+                <!-- 3 Mac Window Dots (Red, Yellow, Green) -->
+                <div class="flex items-center gap-1.5 sm:gap-2">
+                  <span
+                    class="w-3.5 h-3.5 rounded-full bg-[#ff5f56] border border-black/50"
+                  ></span>
+                  <span
+                    class="w-3.5 h-3.5 rounded-full bg-[#ffbd2e] border border-black/50"
+                  ></span>
+                  <span
+                    class="w-3.5 h-3.5 rounded-full bg-[#27c93f] border border-black/50"
+                  ></span>
+                </div>
+
+                <!-- Window Title -->
+                <div
+                  class="font-mono text-xs sm:text-sm font-bold text-gray-800 tracking-tight"
+                >
+                  developer@arjit:~
+                </div>
+
+                <!-- Window Action Indicator -->
+                <div class="text-gray-600 font-bold text-sm select-none">
+                  &minus;
+                </div>
+              </div>
+
+              <!-- Terminal Code Body -->
+              <div
+                class="p-4 sm:p-5 text-white text-xs sm:text-sm font-mono leading-relaxed space-y-2 select-text"
+              >
+                <!-- Line 1: Comment -->
+                <div class="flex items-center gap-3 sm:gap-4">
+                  <span class="text-gray-500 select-none w-3 sm:w-4 text-right">1</span>
+                  <span class="text-neo-green font-bold">// current mindset</span>
+                </div>
+
+                <!-- Line 2: while statement (Active line with yellow vertical marker) -->
+                <div class="flex items-center gap-3 sm:gap-4 relative">
+                  <span class="text-gray-500 select-none w-3 sm:w-4 text-right">2</span>
+                  <span
+                    class="absolute -left-2.5 sm:-left-3 top-0.5 bottom-0.5 w-1 bg-neo-yellow rounded-full"
+                  ></span>
+                  <span><strong class="text-neo-pink font-bold">while</strong> (learning) {</span>
+                </div>
+
+                <!-- Line 3: keepBuilding() -->
+                <div class="flex items-center gap-3 sm:gap-4">
+                  <span class="text-gray-500 select-none w-3 sm:w-4 text-right">3</span>
+                  <span class="pl-4 sm:pl-5 text-white">keepBuilding();</span>
+                </div>
+
+                <!-- Line 4: improve() -->
+                <div class="flex items-center gap-3 sm:gap-4">
+                  <span class="text-gray-500 select-none w-3 sm:w-4 text-right">4</span>
+                  <span class="pl-4 sm:pl-5 text-white">improve();</span>
+                </div>
+
+                <!-- Line 5: closing brace -->
+                <div class="flex items-center gap-3 sm:gap-4">
+                  <span class="text-gray-500 select-none w-3 sm:w-4 text-right">5</span>
+                  <span class="text-white">}</span>
+                </div>
+
+                <!-- Line 6: small progress comment + blinking pulse block -->
+                <div class="pt-3 sm:pt-4 flex items-center gap-3 sm:gap-4 text-gray-400 text-xs">
+                  <span class="select-none w-3 sm:w-4"></span>
+                  <div class="flex items-center gap-1.5 text-gray-400">
+                    <span>// small progress every day...</span>
+                    <span class="inline-block w-2 h-3.5 bg-neo-green animate-pulse"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Floating Badges Stack Column (Placed directly alongside Terminal as in reference) -->
+            <div
+              class="hidden sm:flex flex-col items-center justify-between gap-4 sm:gap-5 self-stretch py-1 z-20 select-none"
+            >
+              <!-- 1. 'LEARN BUILD IMPROVE REPEAT' Box with Retro Rays -->
+              <div class="flex flex-col items-center">
+                <div
+                  class="text-black font-black text-sm tracking-widest -mb-0.5 select-none"
+                >
+                  \|/
+                </div>
+                <div
+                  class="bg-white border-2 sm:border-[3px] border-black p-2.5 sm:p-3 font-mono font-black text-[10px] sm:text-[11px] uppercase leading-tight shadow-hard text-left tracking-wider"
+                >
+                  LEARN<br />BUILD<br />IMPROVE<br />REPEAT
+                </div>
+              </div>
+
+              <!-- 2. '</>' Code Bracket Box -->
+              <div
+                class="bg-white border-2 sm:border-[3px] border-black px-3 py-1.5 font-mono font-black text-base sm:text-lg shadow-hard"
+              >
+                &lt;/&gt;
+              </div>
+
+              <!-- 3. Small Blue Square -->
+              <div
+                class="w-8 h-8 sm:w-9 sm:h-9 bg-neo-blue border-2 sm:border-[3px] border-black shadow-hard"
+              ></div>
+
+              <!-- 4. Pink Circle -->
+              <div
+                class="w-11 h-11 sm:w-13 sm:h-13 rounded-full bg-neo-pink border-2 sm:border-[3px] border-black shadow-hard"
+              ></div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="relative z-10 text-center max-w-5xl">
+      <!-- Bottom Status Bar (From Reference Image) -->
+      <div
+        class="w-full border-t-2 sm:border-t-4 border-black bg-white/95 backdrop-blur-sm py-3 px-4 z-20 mt-8 sm:mt-12"
+      >
         <div
-          class="inline-block bg-neo-white border-2 border-black px-4 py-1 mb-6 shadow-hard rotate-[-2deg] hero-reveal"
+          class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4"
         >
-          <span class="font-mono font-bold text-neo-green bg-black px-2 mr-2"
-            >●</span
+          <!-- Left: Currently Learning Status Pill -->
+          <div
+            class="inline-flex items-center gap-2.5 bg-white border-2 border-black px-4 py-2 font-mono text-xs sm:text-sm font-bold shadow-hard-sm"
           >
-          <span class="font-mono font-bold">STATUS: SEMESTER 3 // SVIET</span>
-        </div>
+            <span class="w-2.5 h-2.5 rounded-full bg-neo-green animate-pulse"></span>
+            <span class="uppercase tracking-wider">CURRENTLY LEARNING: ADVANCED JAVA &amp; FULL STACK</span>
+          </div>
 
-        <h1
-          class="text-[13vw] md:text-[10vw] leading-[0.85] font-black uppercase tracking-tighter mb-6 hero-reveal mix-blend-darken"
-        >
-          CSE<br />
-          <span
-            class="text-white text-stroke-black"
-            style="-webkit-text-stroke: 3px black"
-            >STUDENT</span
-          >
-        </h1>
-
-        <p
-          class="font-mono text-lg md:text-2xl max-w-2xl mx-auto mb-10 bg-neo-yellow border-2 border-black p-4 shadow-hard hero-reveal rotate-1"
-        >
-          Building Modern Web Systems &amp; Visual Interfaces. <br />
-          <b>C &bull; C++ &bull; Python &bull; Java &bull; HTML/CSS/JS &bull; Photoshop</b>
-        </p>
-
-        <div class="flex flex-col md:flex-row justify-center gap-6 hero-reveal">
-          <a
-            href="#projects"
-            class="bg-black text-white border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-green hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover"
-          >
-            VIEW DATABASE
-          </a>
-          <a
-            href="Assets/Resume/Resume.pdf"
-            download="Arjit_Kumar_Mahato_Resume.pdf"
-            class="bg-neo-white text-black border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-pink hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover flex items-center justify-center gap-2"
-          >
-            <i class="ri-download-line"></i> DOWNLOAD CV
-          </a>
+          <!-- Right: Community Lead & Retro Slashes -->
+          <div class="flex items-center gap-3">
+            <i class="ri-team-fill text-2xl text-black"></i>
+            <div
+              class="inline-flex items-center bg-white border-2 border-black px-4 py-2 font-mono text-xs sm:text-sm font-bold shadow-hard-sm"
+            >
+              TECH LEAD &bull; UNIQUES 5.0
+            </div>
+            <span
+              class="font-mono text-lg font-black tracking-widest text-black select-none pl-1"
+              >///</span
+            >
+          </div>
         </div>
       </div>
     </header>
-
-    <!-- Marquee Ticker -->
-    <div class="border-b-4 border-black bg-neo-blue py-3 relative z-20">
-      <div class="marquee-container font-mono font-bold text-2xl text-white">
-        <div class="marquee-content">
-          /// CURRENTLY LEARNING /// JAVA + DSA /// WEB DEVELOPMENT /// UI
-          DESIGN IN PHOTOSHOP /// ALWAYS BUILDING /// C++ ALGORITHMS ///
-          FULL STACK ARCHITECTURE /// CURRENTLY LEARNING /// JAVA + DSA /// WEB DEVELOPMENT ///
-        </div>
-      </div>
-    </div>
 
     <!-- About Section -->
     <section

@@ -5,14 +5,8 @@
 /* Base & Background Matrix */
 body {
   background-color: #fffdf5;
-  background-image:
-    radial-gradient(#000 1px, transparent 1px),
-    linear-gradient(to right, #e5e5e5 1px, transparent 1px),
-    linear-gradient(to bottom, #e5e5e5 1px, transparent 1px);
-  background-size:
-    40px 40px,
-    100px 100px,
-    100px 100px;
+  background-image: radial-gradient(#000 1.2px, transparent 1.2px);
+  background-size: 32px 32px;
 }
 
 /* Custom Cursor - Only enabled on fine-pointer devices (mouse/trackpad) */
